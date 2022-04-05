@@ -1,6 +1,42 @@
+
+<!-- <script>
+Reveal.initialize({
+  width: 1440,
+  height: 900,
+  center: false,
+  });
+  </script> -->
 ---
-title: "Presentation"
+title: "Test Presentation" 
 format:
   revealjs: 
     theme: 3327.scss
----
+    width: 1440
+    height: 900
+    max-scale: 2
+    min-scale: 0.2
+--- 
+## Slide Title 1 {.slide-img-l-text-r}
+
+::: {.column width=50%}
+![image-1](./assets/images/image-2.png)
+:::
+
+::: {.column width=50%}
+![logo](./assets/3327-logo-tr-black.svg){.absolute top=5 right=5 width="150" height="150"}
+
+### Recap for humans of planet earth
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+::: 
+
+
+## Slide Title 2
+
+Slide content 2
+
+::: footer
+Custom footer text
+:::

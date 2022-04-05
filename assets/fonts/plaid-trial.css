@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-M.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-M'),
+        url('./Plaid-Trial-M.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-L.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-L'),
+        url('./Plaid-Trial-L.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-XL.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-XL'),
+        url('./Plaid-Trial-XL.otf') format('otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-M-Italic.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-M'),
+        url('./Plaid-Trial-M-Italic.otf') format('otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-L-Italic.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-L'),
+        url('./Plaid-Trial-L-Italic.otf') format('otf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Plaid Trial';
+    src: url('./Plaid-Trial-XL-Italic.otf');
+    src: local('Plaid Trial'), local('Plaid-Trial-XL'),
+        url('./Plaid-Trial-XL-Italic.otf') format('otf');
+    font-weight: 800;
+    font-style: italic;
+}

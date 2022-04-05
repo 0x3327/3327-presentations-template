@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.163">
-  <title>Presentation</title>
+  <meta name="generator" content="quarto-0.9.183">
+  <title>Test Presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -24,7 +24,7 @@
   <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
   <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
   <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet">
-  <link id="quarto-text-highlighting-styles" href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet">
+  <link id="quarto-text-highlighting-styles" href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -320,11 +320,47 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Presentation</h1>
+  <h1 class="title">Test Presentation</h1>
 </section>
 
 <section class="slide level2">
 
+<!-- <script>
+Reveal.initialize({
+  width: 1440,
+  height: 900,
+  center: false,
+  });
+  </script> -->
+</section>
+<section id="slide-title-1" class="slide level2 slide-img-l-text-r">
+<h2>Slide Title 1</h2>
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/images/image-2.png"></p>
+<p></p><figcaption aria-hidden="true">image-1</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./assets/3327-logo-tr-black.svg" class="absolute" style="top: 5px; right: 5px; width: 150px; height: 150px; "></p>
+<p></p><figcaption aria-hidden="true">logo</figcaption><p></p>
+</figure>
+</div>
+<h3 id="recap-for-humans-of-planet-earth">Recap for humans of planet earth</h3>
+<p>We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.</p>
+<p>Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.</p>
+</div>
+</section>
+<section id="slide-title-2" class="slide level2">
+<h2>Slide Title 2</h2>
+<p>Slide content 2</p>
+<div class="footer">
+<p>Custom footer text</p>
+</div>
 <div class="footer footer-default">
 
 </div>
@@ -507,12 +543,17 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1440,
 
-        height: 700,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        // Bounds for smallest/largest possible scale to apply to content
+        minScale: 0.2,
+
+        maxScale: 2,
 
         math: {
           mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',

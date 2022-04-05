@@ -1,4 +1,83 @@
 /*-- scss:defaults --*/
 
-$body-bg: #24242A !default;
-$body-color: #F0EEF3!default;
+// Plaid Trial via file, space mono via google fonts
+// @import url(./assets/fonts/plaid-trial.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// fonts
+$font-family-sans-serif: "Plaid Trial", "Space Mono", sans serif !default;
+
+// colors
+$light: #F0EEF3;
+$dark: #24242A;
+$purple: #D330ED;
+$green: #62F0AC;
+
+$body-bg: $light !default;
+$body-color: $dark!default;
+$link-color: $purple!default;
+$selection-bg: $purple !default;
+
+// font styling
+
+%plaid-xl {
+  font-size: 48px;
+  line-height: 57px;
+  font-family: "Plaid Trial";
+  font-weight: 800;
+}
+
+%plaid-l-reg {
+  font-size: 21px;
+  line-height: 25px;
+  font-family: "Plaid Trial";
+  font-weight: 400;
+}
+
+// headings
+$presentation-heading-font: "Plaid Trial", "Space Mono", sans serif !default;
+// "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, sans serif !default;
+$presentation-heading-color: $dark !default;
+$presentation-heading-text-transform: uppercase !default;
+
+/*-- scss:rules --*/
+
+.relative {
+  position: relative;
+}
+
+.title-1 {
+  .body {
+    padding: 65px 53px;
+  }
+}
+// .reveal .slide blockquote {
+//   border-left: 3px solid $text-muted;
+//   padding-left: 0.5em;
+// }
+
+// .reveal a {
+//     line-height: 1.3em;
+//   }
+
+// .reveal
+
+.slide-img-l-text-r {
+  position: relative;
+  // .reveal .slide .column {
+  //   width: 50%;
+  // }
+
+  .reveal .slide h3 {
+    @extend %plaid-xl
+  }
+
+  .reveal .slide p {
+    @extend %plaid-l-reg
+  }
+
+
+}
+
+
+  
