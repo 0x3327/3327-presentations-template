@@ -11,12 +11,12 @@ title: "3327 test"
 format: 
   revealjs: 
     theme: 3327.scss
-    width: 1902
+    width: 1920
     height: 1080
     margin: 0
     max-scale: 2
     min-scale: 0.2 
-    scrollable: true     
+    scrollable: true 
 --- 
 <!-- 1 - Slide white 3 column w/ subtitle optional-->
 ## RECAP FOR HUMANS OF PLANET EARTH {.slide-white-3column}
@@ -24,7 +24,7 @@ format:
 ### Still unsure what the heck we are talking about?
 
 ::::{.columns}
-::: {.column}
+::: {.column} 
 We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. 
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
@@ -48,12 +48,20 @@ We may not be as badass as him, but we love to collaborate with badass people, s
  
 ::::
 
-<!-- 2 - Slide white 1 column w/ uppercase and p-->
+<!-- 3 - Slide white 1 column w/ uppercase and p-->
 ## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-white-1column-uppercase}
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
 
 We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.  
+
+<!-- 4 - Slide quote-->
+## {.slide-quote-green }
+ 
+### “Go Into the Wild Even if They Don’t Want You to”
+ 
+Nikola Tesla
+
 
 ## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
 ::::{.columns}

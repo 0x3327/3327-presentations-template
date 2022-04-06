@@ -204,13 +204,47 @@ $presentation-heading-text-transform: uppercase !default;
     width: 55%;
   }
 
-  // .column {
-  //   width: 50%;
-  //   padding-right: 40px;
-  // }
 }
 
+.slide-quote-green {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  background-color: $green;
+  text-align: center;
 
+  h2 {
+    margin-bottom: 75vh;
+  }
+
+  h3 {
+    // @extend %plaid-xxl-extrabold;
+    font-size: 48px;
+    line-height: 57px;
+    font-family: "Plaid Trial"  sans serif;
+    font-weight: 800;
+    
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 50%;
+    
+  }
+  p {
+    // @extend %space-mono-l;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Space Mono"  sans serif;
+    font-weight: 400;
+
+    margin: 0;
+    text-transform: none;
+    display: inline-block;
+    width: 55%;
+  }
+
+}
 
 
 
