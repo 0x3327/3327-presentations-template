@@ -11,8 +11,8 @@ title: "3327 test"
 format: 
   revealjs: 
     theme: 3327.scss
-    width: 1920
-    height: 1080
+    width: 1440
+    height: 900
     margin: 0
     max-scale: 2
     min-scale: 0.2 
@@ -45,23 +45,96 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
 We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.  
 :::
- 
-::::
+:::: 
 
 <!-- 3 - Slide white 1 column w/ uppercase and p-->
 ## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-white-1column-uppercase}
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
 
-We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.  
+We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.
 
-<!-- 4 - Slide quote-->
+<!-- 4 - Slide quote green bg-->
 ## {.slide-quote-green }
  
 ### “Go Into the Wild Even if They Don’t Want You to”
  
 Nikola Tesla
 
+<!-- 5 - Slide title centered purple bg-->
+## {.slide-title-purple }
+### LET’S NERD OUT TOGETHER
+
+<!-- 6 - Slide agenda 3 column - white-->
+## {.slide-agenda-3column }
+
+::::{.columns}
+:::{.column}
+1. Home
+2. Projects
+3. Tech
+4. Art
+5. Contribute
+6. About
+:::
+::::
+
+<!-- 7 - Slide agenda 2 column w/ subtitles - white-->
+## {.slide-agenda-2column }
+
+::::{.columns}
+:::{.column}
+1. Home
+
+What is 3327 / Our manifesto
+
+2. Projects
+
+What is 3327 / Our manifesto
+
+3. Tech
+
+What is 3327 / Our manifesto
+
+:::
+:::{.column}
+4. Art
+
+What is 3327 / Our manifesto
+
+5. Contribute
+
+What is 3327 / Our manifesto
+
+6. About
+
+What is 3327 / Our manifesto
+
+:::
+::::
+
+<!-- 8 - Slide with tables darj and white depending on class-->
+## {.slide-table }
+
+:::: {.dark}
+| Purpose | Purpose |
+| ----------- | ----------- |
+| Tool | Tool |
+| Tool | Tool |
+::::
+
+:::: {.light}
+| Purpose | Purpose |
+| ----------- | ----------- |
+| Tool | Tool |
+| Tool | Tool |
+::::
+
+<!-- 9 - Slide with title without footer text-->
+## IntroductionIntroduction IntroductionIntroduction {.slide-title-black-1}
+
+<!-- 10 - Slide with title w/ footer text-->
+## {.slide-title-black-2 }
 
 ## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
 ::::{.columns}

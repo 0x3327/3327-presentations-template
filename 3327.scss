@@ -9,6 +9,7 @@ $font-family-sans-serif: "Plaid Trial", "Space Mono", serif !default;
 
 // colors
 $light: #F0EEF3;
+$light-gray: #DCD9E5;
 $gray: #656574;
 $dark: #24242A;
 $purple: #D330ED;
@@ -42,6 +43,20 @@ $selection-bg: $purple !default;
   font-weight: 800;
 }
 
+%plaid-l-2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Plaid Trial" sans serif;
+  font-weight: 800;
+}
+
+%plaid-l {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Plaid Trial" sans serif;
+  font-weight: 600;
+}
+
 %plaid-m-2 {
   font-size: 21px;
   line-height: 21px;
@@ -51,7 +66,7 @@ $selection-bg: $purple !default;
 
 %plaid-m {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 21px;
   font-family: "Plaid Trial" sans serif;
   font-weight: 400;
 }
@@ -93,8 +108,12 @@ $presentation-heading-text-transform: uppercase !default;
   position: relative;
 }
 
+.slide-background .slide .level2 {
+  padding: 0!important;
+}
+
 .slide-white-3column {
-  // @extend %blank-white;
+  @extend %blank-white;
   padding: 114px 52px;
   
   h2 {
@@ -135,7 +154,7 @@ $presentation-heading-text-transform: uppercase !default;
   padding: 114px 52px;
   
   h2 {
-    // @extend %plaid-xxl;
+    // @extend %plaid-xl-semibold;
     font-size: 48px;
     line-height: 57px;
     font-family: "Plaid Trial"  sans serif;
@@ -179,7 +198,7 @@ $presentation-heading-text-transform: uppercase !default;
   padding: 114px 52px;
   
   h2 {
-    // @extend %plaid-xxl;
+    // @extend %plaid-xl-semibold;
     font-size: 48px;
     line-height: 57px;
     font-family: "Plaid Trial"  sans serif;
@@ -215,11 +234,11 @@ $presentation-heading-text-transform: uppercase !default;
   text-align: center;
 
   h2 {
-    margin-bottom: 75vh;
+    margin-bottom: 65vh;
   }
 
   h3 {
-    // @extend %plaid-xxl-extrabold;
+    // @extend %plaid-xl-extrabold;
     font-size: 48px;
     line-height: 57px;
     font-family: "Plaid Trial"  sans serif;
@@ -228,7 +247,7 @@ $presentation-heading-text-transform: uppercase !default;
     margin-bottom: 40px;
     text-transform: uppercase;
     display: inline-block;
-    width: 50%;
+    width: 70%;
     
   }
   p {
@@ -246,6 +265,219 @@ $presentation-heading-text-transform: uppercase !default;
 
 }
 
+.slide-title-purple {
+  background-color: $purple;
+  text-align: center;
+  color: $light;
+
+  h2 {
+    margin-bottom: 65vh;
+  }
+
+  h3 {
+    // @extend %plaid-xxl;
+    font-size: 72px;
+    line-height: 86px;
+    font-family: "Plaid Trial"  sans serif;
+    font-weight: 800;
+    
+    color: $light;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 60%;
+    
+  }
+
+}
+
+.slide-agenda-3column {
+  // @extend %blank-white;
+  padding: 114px 52px;
+  
+  h2 {
+    // @extend %plaid-xl-semibold;
+    font-size: 48px;
+    line-height: 57px;
+    font-family: "Plaid Trial"  sans serif;
+    font-weight: 600;
+    
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    
+  }
+  .column {
+    width: 33%;
+    ol {
+      counter-reset: item;
+      list-style-type: none;
+    
+      li {
+        // @extend %plaid-l-2;
+        font-size: 40px;
+        line-height: 36px;
+        font-family: "Plaid Trial" sans serif;
+        font-weight: 800;
+
+        text-transform: uppercase;
+        list-style-type: none;
+      }
+      li:before { 
+        content: "0" counter(item) " // "; 
+        counter-increment: item; 
+    }
+
+}
+  }
+}
+
+.slide-agenda-2column {
+  // @extend %blank-white;
+  padding: 114px 52px;
+  
+  h2 {
+    // @extend %plaid-xxl;
+    font-size: 72px;
+    line-height: 86px;
+    font-family: "Plaid Trial"  sans serif;
+    font-weight: 800;
+    
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    
+  }
+  .column {
+    width: 50%;
+
+    .reveal .slide ol {
+      margin: 0;
+    }
+
+    ol {
+      // counter-reset: item;
+      counter-increment: item;
+      list-style-type: none;
+      margin: 0!important;
+    
+      li {
+        // @extend %plaid-xl-extrabold;
+        font-size: 58px;
+        line-height: 57px;
+        font-family: "Plaid Trial" sans serif;
+        font-weight: 800;
+
+        text-transform: uppercase;
+        list-style-type: none;
+      }
+      li:before { 
+        content: "0" counter(item) " // "; 
+        // counter-increment: item; 
+    }
+  }
+  p {
+    // @extend %plaid-m;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Plaid Trial" sans serif;
+    font-weight: 400;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  }
+  .column:nth-of-type(2) {
+    ol:nth-of-type(1) {
+      counter-increment: item 4;
+    }
+  }  
+}
+
+.slide-table {
+  padding: 114px 52px;
+  
+  table {
+    margin: 0 10px;
+  }
+
+  .dark, .light {
+    display: inline-block;
+  }
+
+    table {
+      th {
+        padding: 22px 13px;
+
+        // @extend %plaid-m;
+        font-size: 28px;
+        line-height: 21px;
+        font-family: "Plaid Trial" sans serif;
+        font-weight: 400;
+      }
+      tr {
+        border: 2px solid $dark;
+
+        // @extend %plaid-l;
+        font-size: 24px;
+        line-height: 28px;
+        font-family: "Plaid Trial" sans serif;
+        font-weight: 600;
+
+        td {
+          padding: 22px 30px;
+          border: 2px solid $dark;
+          min-width: 200px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  .dark {
+    table {
+      th {
+        background-color: $dark;
+        color: $light;
+      }
+      tr {
+        background-color: $light;
+        color: $dark;
+      }
+    }
+  }
+
+  .light {
+    table {
+      tr.header {
+        border: none;
+      }
+      th {
+        background-color: $light-gray;
+        color: $dark;
+      }
+      tr {
+        background-color: $light;
+        color: $dark;
+      }
+    }
+  }
+
+}
+
+.slide-title-black-1 {
+  padding: 64px 53px;
+  // margin: 64px 53px;
+  background-color: $dark;
+
+  h2 {
+    // @extend %plaid-xxl;
+    font-size: 72px;
+    line-height: 86px;
+    font-family: "Plaid Trial"  sans serif;
+    font-weight: 800;
+
+    color: $light;
+    padding-bottom: 53px;
+    border-bottom: 2px solid $light;
+  }
+}
 
 
 .slide-img-l-text-r {
