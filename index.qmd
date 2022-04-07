@@ -11,6 +11,8 @@ title: "3327 test"
 format: 
   revealjs: 
     theme: 3327.scss
+    <!-- width: 1920
+    height: 1080 -->
     width: 1440
     height: 900
     margin: 0
@@ -131,11 +133,41 @@ What is 3327 / Our manifesto
 ::::
 
 <!-- 9 - Slide with title without footer text-->
-## IntroductionIntroduction IntroductionIntroduction {.slide-title-black-1}
+## Introduction {.slide-title-black-1}
 
 <!-- 10 - Slide with title w/ footer text-->
-## {.slide-title-black-2 }
+## BADASS PEOPLE INSPIRED BY A BADASS SCIENTIST {.slide-title-black-2 }
 
+<!-- 11 - Slide with 2 columns - left text black bg, right text white bg-->
+<!-- background-image="./assets/images/image-full-1.png" background-color="aquamarine" -->
+## {.slide-text-l-text-r}
+
+::::{.columns}
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::: {.column }
+
+- We are a DAO digital collective of 10+ people.
+
+- Our team consists of engineers, researchers, and designers.
+
+- Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
+
+- We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+:::
+::::
+
+<!-- n - Slide with image left and text right-->
 ## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
 ::::{.columns}
 
