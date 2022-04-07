@@ -20,8 +20,26 @@ format:
     min-scale: 0.2 
     scrollable: true 
 --- 
-<!-- 1 - Slide white 3 column w/ subtitle optional-->
+<!-- 1-w - Slide white 3 column w/ subtitle optional-->
 ## RECAP FOR HUMANS OF PLANET EARTH {.slide-white-3column}
+
+### Still unsure what the heck we are talking about?
+
+::::{.columns}
+::: {.column} 
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. 
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+:::
+::: {.column}
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+:::
+::::
+
+<!-- 1-b - Slide black 3 column w/ subtitle optional-->
+## RECAP FOR HUMANS OF PLANET EARTH {.slide-black-3column}
 
 ### Still unsure what the heck we are talking about?
 

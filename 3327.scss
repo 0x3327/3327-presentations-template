@@ -115,12 +115,52 @@ $presentation-heading-text-transform: uppercase !default;
   position: relative;
 }
 
-.slide-background .slide .level2 {
+div.slide-background.slide.level2 {
   padding: 0!important;
 }
 
-.slide-white-3column {
-  @extend %blank-white;
+// white bg classic
+div.slide-background.slide.level2.slide-white-3column,
+div.slide-background.slide.level2.slide-white-2column-normalcase,
+div.slide-background.slide.level2.slide-white-1column-uppercase,
+div.slide-background.slide.level2.slide-agenda-3column,
+div.slide-background.slide.level2.slide-agenda-2column,
+div.slide-background.slide.level2.slide-table {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+  background-repeat: no-repeat;
+  background-size: 110px 110px, 123px 123px, auto, auto;
+  background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+}
+
+// black bg classic
+div.slide-background.slide.level2.slide-black-3column,
+div.slide-background.slide.level2.slide-black-team,
+div.slide-background.slide.level2.slide-black-projects {
+  background-image: url("/assets/template-elements/3327-logo-tr-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-white.svg"), url("/assets/template-elements/footer-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 110px 110px, 123px 123px, auto, auto, 100%;
+  background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px, top 0 left 0;
+}
+
+// green bg quote
+div.slide-background.slide.level2.slide-quote-green {
+  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 15vh, center 40vh, top 0 left 0;
+}
+
+// purple bg title
+div.slide-background.slide.level2.slide-title-purple {
+  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 15vh, center 40vh, top 0 left 0;
+}
+
+.slide-white-3column,
+.slide-black-3column {
+  // @extend %blank-white;
   padding: 114px 52px;
   
   h2 {
@@ -154,6 +194,13 @@ $presentation-heading-text-transform: uppercase !default;
     width: 33%;
     padding-right: 40px;
   }
+}
+
+.slide-black-3column {
+  h2, h3, h4 p, .column p, li {
+    color: $light;
+  }
+
 }
 
 .slide-white-2column-normalcase {
@@ -233,11 +280,6 @@ $presentation-heading-text-transform: uppercase !default;
 }
 
 .slide-quote-green {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
-  background-color: $green;
   text-align: center;
 
   h2 {
@@ -273,7 +315,6 @@ $presentation-heading-text-transform: uppercase !default;
 }
 
 .slide-title-purple {
-  background-color: $purple;
   text-align: center;
   color: $light;
 
@@ -508,7 +549,7 @@ $presentation-heading-text-transform: uppercase !default;
 //   background: none;
 // }
 
-div.slide-background.slide.level2.slide-text-l-text-r.present {
+div.slide-background.slide.level2.slide-text-l-text-r {
   background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
   background-repeat: no-repeat;
   background-size: 110px 110px, 100%;
@@ -563,6 +604,7 @@ div.slide-background.slide.level2.slide-text-l-text-r.present {
 
   .column:nth-of-type(1) {
     color: $light;
+    padding-left: 2%;
     padding-right: 5%;
     
     h2, h3, h4 {
@@ -574,6 +616,7 @@ div.slide-background.slide.level2.slide-text-l-text-r.present {
   .column:nth-of-type(2) {
     color: $dark;
     padding-left: 5%;
+    padding-right: 2%;
   }
 
 }
