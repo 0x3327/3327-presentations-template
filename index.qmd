@@ -18,7 +18,9 @@ format:
     margin: 0
     max-scale: 2
     min-scale: 0.2 
-    scrollable: true 
+    scrollable: true
+    transition: fade 
+    backgroundTransition: fade
 --- 
 <!-- 1-w - Slide white 3 column w/ subtitle optional-->
 ## RECAP FOR HUMANS OF PLANET EARTH {.slide-white-3column}
@@ -133,7 +135,7 @@ What is 3327 / Our manifesto
 :::
 ::::
 
-<!-- 8 - Slide with tables darj and white depending on class-->
+<!-- 8 - Slide with tables dark and light depending on class-->
 ## {.slide-table }
 
 :::: {.dark}
@@ -157,8 +159,7 @@ What is 3327 / Our manifesto
 ## BADASS PEOPLE INSPIRED BY A BADASS SCIENTIST {.slide-title-black-2 }
 
 <!-- 11 - Slide with 2 columns - left text black bg, right text white bg-->
-<!-- background-image="./assets/images/image-full-1.png" background-color="aquamarine" -->
-## {.slide-text-l-text-r}
+## {.slide-black-l-white-r}
 
 ::::{.columns}
 ::: {.column}
@@ -185,44 +186,198 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 :::
 ::::
 
+<!-- 11 also - Slide with 2 columns - left text black bg, right image white bg-->
+## {.slide-black-l-white-r}
+
+::::{.columns}
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::: {.column }
+
+![](/assets/images/image-14.png)
+
+:::
+::::
+
+
 <!-- 12 - Slide w/ full image -->
 ## {.slide-image-full}
 
-<!-- 13 - Slide final - title w/ black bg-->
+<!-- 13 - Slide w/ 1 custom image in center, either horizontal or vertical -->
+## Image in center {.slide-image-center-white}
+
+![Tech we use Tech we use Tech we use](/assets/images/image-15.png)
+<!-- ![Tech we use Tech we use Tech we use](/assets/images/rounded-image-3.png) -->
+
+<!-- 14 - Slide w/ 2 columns, both white, left is fore images, right is for text -->
+## {.slide-image-l-text-r-white}
+
+::::{.columns}
+::: {.column }
+
+![](/assets/images/image-14.png)
+
+:::
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::::
+
+<!-- 15 - Slide w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text -->
+## {.slide-speaker-image-l-text-r-white}
+
+::::{.columns}
+
+::: {.column }
+
+::: {.round}
+![](/assets/images/image-13.png)
+:::
+
+:::
+
+::: {.column}
+
+### Aleksandar Stanković
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
+
+We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.
+
+:::
+
+::::
+
+<!-- 15 - Slide for projects list -->
+## Projects {.slide-projects .scrollable}
+
+:::: {.items }
+Substrate Blockchain Starter Kit
+
+Scriptarnica Light
+
+Crypto Gift Cards
+
+NFT Wrapper
+
+Tesseract
+
+Bizzswap
+
+Crypto Trophies
+
+Bizzllet
+
+Stealth DEX PoC L2
+
+Givellet
+
+Smart Contract Vulnerabilities Database
+
+CryptoTimer
+
+MACI pallet
+
+::::
+
+<!-- 16 - Slide for team members list w/ image -->
+## Our team {.slide-team .scrollable}
+
+### Core members
+
+:::: {.items }
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.round}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+
+
+<!-- 
+Substrate Blockchain Starter Kit
+
+Scriptarnica Light
+
+Crypto Gift Cards
+
+NFT Wrapper
+
+Tesseract
+
+Bizzswap
+
+Crypto Trophies
+
+Bizzllet
+
+Stealth DEX PoC L2 -->
+
+::::
+
+<!-- 16 - Slide for partner logos -->
+## {.slide-partners}
+
+
+<!-- 17 - Slide final - title w/ black bg-->
 ## {.slide-outro}
 
 
 <!-- n - Slide with image left and text right-->
 ## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
-::::{.columns}
 
+::::{.columns}
 
 ::: {.column background-image="./assets/images/image-8.png" }
 
 <!-- ![](./assets/images/image-2.png){.r-stretch} -->
 :::
-
-
 ::: {.column }
 <!-- ![logo](./assets/3327-logo-tr-black.svg){.absolute top=5 right=5 width="150" height="150"} -->
 :::
 
-
 ::::
-
-
-### n - Recap for humans of planet earth
-
-We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
-
-Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
-::: 
-::::
-
-## n - Slide Title 2 {data-background-image="/assets/templates/blank-white.png"}
-//dal moze sa --css varovima da se skrati posao
-Slide content 2
-
-::: footer
-Custom footer text
-:::
