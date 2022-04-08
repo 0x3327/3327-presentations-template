@@ -901,9 +901,9 @@ div.slide-background.slide.level2.slide-outro {
       float: left;
     }
 
-    p:last-child {
-      margin-bottom: 150px;
-    }
+    // p:last-child {
+    //   margin-bottom: 150px;
+    // }
 
     p:nth-child(3n-2) {
       border-left: 2px solid $light;
@@ -939,15 +939,17 @@ div.slide-background.slide.level2.slide-outro {
     .items {
       width: 1200px;
       height: 100%;
-      
+
       .round {
         width: 322px;
         height: 100px;
         padding: 18px;
         border-right: 2px solid $light;
 
-        margin: 0;
+        margin: 0 0 15px 0;
         float: left;
+
+        color: $light;
             p {
               display: inline-block;
               height: 100px;
@@ -959,7 +961,19 @@ div.slide-background.slide.level2.slide-outro {
                 border-radius: 100%;
                 }
             }
+
+            figcaption {
+              position: relative;
+              bottom: 120px;
+              left: 120px;
+              width: min-content;
+
+            }
         } 
+
+        .round:nth-child(3n-2) {
+          border-left: 2px solid $light;
+        }
     }
   }
 
