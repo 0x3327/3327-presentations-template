@@ -7,7 +7,7 @@ Reveal.initialize({
   });
   </script> -->
 ---
-title: "3327 test" 
+title: "3327 Presentation" 
 format: 
   revealjs: 
     theme: 3327.scss
@@ -240,7 +240,7 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 :::
 ::::
 
-<!-- 14 - Slide w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text -->
+<!-- 15 - Slide w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text -->
 ## {.slide-speaker-image-l-text-r-white}
 
 ::::{.columns}
@@ -265,7 +265,7 @@ We may not be as badass as him, but we love to collaborate with badass people, s
 
 ::::
 
-<!-- 15 - Slide for projects list -->
+<!-- 16 - Slide for projects list -->
 ## Projects {.slide-projects .scrollable}
 
 :::: {.items }
@@ -297,7 +297,7 @@ MACI pallet
 
 ::::
 
-<!-- 16 - Slide for team members list w/ image -->
+<!-- 17 - Slide for team members list w/ image -->
 ## Our team {.slide-team .scrollable}
 
 ### Core members
@@ -338,10 +338,12 @@ MACI pallet
 
 ::::
 
-<!-- 17 - Slide for partner logos -->
+<!-- 18 - Slide for partner logos -->
 ## {.slide-partners}
 
-<!-- Slide with full height left image (variety of options) + right text column  -->
+<!-- 19 - Slide with full height left image (variety of options) + right text column  -->
+<!-- v7, v8 -->
+
 ## {.slide-full-image-l-text-r-v7}
 
 ::::{.columns}
@@ -378,21 +380,7 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 :::
 ::::
 
-<!-- 18 - Slide final - title w/ black bg-->
+<!-- 20 - Slide final - title w/ black bg-->
 ## {.slide-outro}
 
 
-<!-- n - Slide with image left and text right-->
-## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
-
-::::{.columns}
-
-::: {.column background-image="./assets/images/image-8.png" }
-
-<!-- ![](./assets/images/image-2.png){.r-stretch} -->
-:::
-::: {.column }
-<!-- ![logo](./assets/3327-logo-tr-black.svg){.absolute top=5 right=5 width="150" height="150"} -->
-:::
-
-::::

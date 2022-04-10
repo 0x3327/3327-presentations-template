@@ -25,70 +25,70 @@ $selection-bg: $purple !default;
 %plaid-xxl {
   font-size: 72px;
   line-height: 86px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 800;
 }
 
 %plaid-xl-semibold {
   font-size: 48px;
   line-height: 57px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 600;
 }
 
 %plaid-xl-extrabold {
   font-size: 48px;
   line-height: 57px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 800;
 }
 
 %plaid-l-2 {
   font-size: 30px;
   line-height: 36px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 800;
 }
 
 %plaid-l {
   font-size: 24px;
   line-height: 28px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 600;
 }
 
 %plaid-m-2 {
   font-size: 21px;
   line-height: 21px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 400;
 }
 
 %plaid-m {
   font-size: 18px;
   line-height: 21px;
-  font-family: "Plaid Trial" sans serif;
+  font-family: "Plaid Trial", sans serif;
   font-weight: 400;
 }
 
 %space-mono-l {
   font-size: 30px;
   line-height: 36px;
-  font-family: "Space Mono" sans serif;
+  font-family: "Space Mono", sans serif;
   font-weight: 400;
 }
 
 %space-mono-m-2 {
   font-size: 21px;
   line-height: 25px;
-  font-family: "Space Mono" sans serif;
+  font-family: "Space Mono", sans serif;
   font-weight: 400;
 }
 
 %space-mono-m {
   font-size: 18px;
   line-height: 21px;
-  font-family: "Space Mono" sans serif;
+  font-family: "Space Mono", sans serif;
   font-weight: 400;
 }
 
@@ -144,23 +144,7 @@ div.slide-background.slide.level2.slide-projects {
   background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px, top 0 left 0;
 }
 
-// green bg quote
-div.slide-background.slide.level2.slide-quote-green {
-  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 8vh, center top 32vh, top 0 left 0;
-}
-
-// purple bg title
-div.slide-background.slide.level2.slide-title-purple {
-  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 15vh, center 40vh, top 0 left 0;
-}
-
-// Slides black and white versions 3 optional columns w/ optioal subtitle
+// - 1-w & 1-b - Slides black and white versions 3 optional columns w/ optioal subtitle
 .slide-white-3column,
 .slide-black-3column {
   // @extend %blank-white;
@@ -170,7 +154,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
     
     text-transform: uppercase;
@@ -182,7 +166,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %space-mono-l;
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono"  sans serif;
+    font-family: "Space Mono",  sans serif;
     font-weight: 400;
 
     text-transform: none;
@@ -191,6 +175,7 @@ div.slide-background.slide.level2.slide-title-purple {
   }
   p {
     @extend %plaid-m;
+    color: $gray;
   }
 
   .column {
@@ -206,7 +191,7 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
-// Slide white 2 column w/ normalcase and paragraph
+// - 2 - Slide white 2 column w/ normalcase and paragraph
 .slide-white-2column-normalcase {
   // @extend %blank-white;
   padding: 114px 52px;
@@ -215,7 +200,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xl-semibold;
     font-size: 48px;
     line-height: 57px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 600;
     
     margin-bottom: 50px;
@@ -228,7 +213,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %space-mono-l;
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono"  sans serif;
+    font-family: "Space Mono",  sans serif;
     font-weight: 400;
 
     margin-bottom: 50px;
@@ -240,7 +225,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %space-mono-m-2;
     font-size: 21px;
     line-height: 25px;
-    font-family: "Space Mono" sans serif;
+    font-family: "Space Mono", sans serif;
     font-weight: 400;
 
   }
@@ -251,7 +236,7 @@ div.slide-background.slide.level2.slide-title-purple {
   }
 }
 
-// Slide white 1 column w/ uppercase and paragraph
+// - 3 - Slide white 1 column w/ uppercase and paragraph
 .slide-white-1column-uppercase {
   // @extend %blank-white;
   padding: 114px 52px;
@@ -260,7 +245,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xl-semibold;
     font-size: 48px;
     line-height: 57px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 600;
     
     margin-bottom: 50px;
@@ -273,7 +258,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %space-mono-l;
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono"  sans serif;
+    font-family: "Space Mono",  sans serif;
     font-weight: 400;
 
     margin: 0;
@@ -284,7 +269,15 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
-// Slide quote green bg
+// - 4 - Slide quote green bg
+div.slide-background.slide.level2.slide-quote-green {
+  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 8vh, center top 32vh, top 0 left 0;
+}
+
+
 .slide-quote-green {
   text-align: center;
 
@@ -296,7 +289,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xl-extrabold;
     font-size: 48px;
     line-height: 57px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial", sans serif;
     font-weight: 800;
     
     margin-bottom: 40px;
@@ -309,7 +302,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %space-mono-l;
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono"  sans serif;
+    font-family: "Space Mono", sans serif;
     font-weight: 400;
 
     margin: 0;
@@ -320,7 +313,14 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
-// Slide title centered purple bg
+// - 5 -Slide title centered purple bg
+div.slide-background.slide.level2.slide-title-purple {
+  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 15vh, center 40vh, top 0 left 0;
+}
+
 .slide-title-purple {
   text-align: center;
   color: $light;
@@ -333,7 +333,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
     
     color: $light;
@@ -345,7 +345,7 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
-// Slide agenda 3 column - white bg
+// - 6 - Slide agenda 3 column - white bg
 .slide-agenda-3column {
   // @extend %blank-white;
   padding: 114px 52px;
@@ -354,7 +354,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xl-semibold;
     font-size: 48px;
     line-height: 57px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 600;
     
     margin-bottom: 50px;
@@ -371,7 +371,7 @@ div.slide-background.slide.level2.slide-title-purple {
         // @extend %plaid-l-2;
         font-size: 40px;
         line-height: 36px;
-        font-family: "Plaid Trial" sans serif;
+        font-family: "Plaid Trial", sans serif;
         font-weight: 800;
 
         text-transform: uppercase;
@@ -386,7 +386,7 @@ div.slide-background.slide.level2.slide-title-purple {
   }
 }
 
-// Slide agenda 2 column w/ subtitles - white bg
+// - 7 - Slide agenda 2 column w/ subtitles - white bg
 .slide-agenda-2column {
   // @extend %blank-white;
   padding: 114px 52px;
@@ -395,7 +395,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
     
     margin-bottom: 50px;
@@ -419,7 +419,7 @@ div.slide-background.slide.level2.slide-title-purple {
         // @extend %plaid-xl-extrabold;
         font-size: 58px;
         line-height: 57px;
-        font-family: "Plaid Trial" sans serif;
+        font-family: "Plaid Trial", sans serif;
         font-weight: 800;
 
         text-transform: uppercase;
@@ -434,7 +434,7 @@ div.slide-background.slide.level2.slide-title-purple {
     // @extend %plaid-m;
     font-size: 18px;
     line-height: 21px;
-    font-family: "Plaid Trial" sans serif;
+    font-family: "Plaid Trial", sans serif;
     font-weight: 400;
 
     margin-top: 0;
@@ -448,7 +448,7 @@ div.slide-background.slide.level2.slide-title-purple {
   }  
 }
 
-// Slide with tables dark and light depending on class
+// - 8 - Slide with tables dark and light depending on class
 .slide-table {
   padding: 114px 52px;
   
@@ -467,7 +467,7 @@ div.slide-background.slide.level2.slide-title-purple {
         // @extend %plaid-m;
         font-size: 28px;
         line-height: 21px;
-        font-family: "Plaid Trial" sans serif;
+        font-family: "Plaid Trial", sans serif;
         font-weight: 400;
       }
       tr {
@@ -477,7 +477,7 @@ div.slide-background.slide.level2.slide-title-purple {
         // @extend %plaid-l;
         font-size: 24px;
         line-height: 28px;
-        font-family: "Plaid Trial" sans serif;
+        font-family: "Plaid Trial", sans serif;
         font-weight: 600;
 
         td {
@@ -520,7 +520,7 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
-// Slide with title without footer text - black bg
+// - 9 - Slide with title without footer text - black bg
 div.slide-background.slide.level2.slide-title-black-1 {
   background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
   background-repeat: no-repeat;
@@ -528,7 +528,7 @@ div.slide-background.slide.level2.slide-title-black-1 {
   background-position: right 69px bottom 67px, top 0 left 0;
 }
 
-// Slide with title w/ footer text - black bg
+// - 10 - Slide with title w/ footer text - black bg
 div.slide-background.slide.level2.slide-title-black-2 {
   background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
   background-repeat: no-repeat;
@@ -544,7 +544,7 @@ div.slide-background.slide.level2.slide-title-black-2 {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
 
     color: $light;
@@ -555,7 +555,7 @@ div.slide-background.slide.level2.slide-title-black-2 {
   }
 }
 
-// Slide with 2 columns - left text black bg, right image white bg
+// - 11 - Slide with 2 columns - left text black bg, right image white bg
 div.slide-background.slide.level2.slide-black-l-white-r {
   background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
   background-repeat: no-repeat;
@@ -577,7 +577,7 @@ div.slide-background.slide.level2.slide-black-l-white-r {
       // @extend %plaid-xl-extrabold;
       font-size: 48px;
       line-height: 57px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 800;
     }
 
@@ -585,7 +585,7 @@ div.slide-background.slide.level2.slide-black-l-white-r {
       // @extend %plaid-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 400;
     }
 
@@ -593,7 +593,7 @@ div.slide-background.slide.level2.slide-black-l-white-r {
       // @extend %space-mono-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Space Mono" sans serif;
+      font-family: "Space Mono", sans serif;
       font-weight: 400;
 
       margin-bottom: 15px;
@@ -619,7 +619,7 @@ div.slide-background.slide.level2.slide-black-l-white-r {
   }
 
 }
-// Slide w/ full screen image
+// - 12 - Slide w/ full screen image
 div.slide-background.slide.level2.slide-image-full {
   background-image: url("/assets/images/image-full-2.png");
   background-repeat: no-repeat;
@@ -630,7 +630,7 @@ div.slide-background.slide.level2.slide-image-full {
 .slide-image-full {
   color: $light;
 }
-// Slide w/ 1 custom image in center, either horizontal or vertical 
+// - 13 - Slide w/ 1 custom image in center, either horizontal or vertical 
 .slide-image-center-white {
   text-align: center;
 
@@ -640,14 +640,14 @@ div.slide-background.slide.level2.slide-image-full {
     text-align: left;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
   }
 
   p.caption {
     font-size: 18px;
     line-height: 21px;
-    font-family: "Plaid Trial" sans serif;
+    font-family: "Plaid Trial", sans serif;
     font-weight: 400;
 
     color: $gray;
@@ -661,7 +661,7 @@ div.slide-background.slide.level2.slide-image-full {
 
   }
 }
-// Slide w/ 2 columns, both white, left is fore images, right is for text
+// - 14 - Slide w/ 2 columns, both white, left is fore images, right is for text
 .slide-image-l-text-r-white,
 .slide-speaker-image-l-text-r-white {
   
@@ -677,7 +677,7 @@ div.slide-background.slide.level2.slide-image-full {
       // @extend %plaid-xl-extrabold;
       font-size: 48px;
       line-height: 57px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 800;
     }
 
@@ -685,7 +685,7 @@ div.slide-background.slide.level2.slide-image-full {
       // @extend %plaid-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 400;
     }
 
@@ -693,7 +693,7 @@ div.slide-background.slide.level2.slide-image-full {
       // @extend %space-mono-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Space Mono" sans serif;
+      font-family: "Space Mono", sans serif;
       font-weight: 400;
 
       margin-bottom: 15px;
@@ -724,7 +724,7 @@ div.slide-background.slide.level2.slide-image-full {
 
 }
 
-// 14 Slide for speakers w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text
+// - 15 - Slide for speakers w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text
 .slide-speaker-image-l-text-r-white {
   .column {
     display: inline-block;
@@ -732,7 +732,7 @@ div.slide-background.slide.level2.slide-image-full {
       // @extend %plaid-xl-semibold;
       font-size: 48px;
       line-height: 57px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 600;
 
       width: min-content;
@@ -767,14 +767,14 @@ div.slide-background.slide.level2.slide-image-full {
 
 
 
-// 15 - Slide for projects list
+// - 16 - Slide for projects list
 .slide-projects {
   padding: 45px 46px;
   h2 {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
 
     color: $light;
@@ -784,7 +784,7 @@ div.slide-background.slide.level2.slide-image-full {
     // @extend %space-mono-l
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono" sans serif;
+    font-family: "Space Mono", sans serif;
     font-weight: 400;
 
     color: $light;
@@ -799,7 +799,7 @@ div.slide-background.slide.level2.slide-image-full {
     // @extend %plaid-l;
     font-size: 24px;
     line-height: 28px;
-    font-family: "Plaid Trial" sans serif;
+    font-family: "Plaid Trial", sans serif;
     font-weight: 600;
 
     color: $light;
@@ -820,14 +820,14 @@ div.slide-background.slide.level2.slide-image-full {
 
 }
 
-// 16 - Slide for team members list w/ image
+// - 17 - Slide for team members list w/ image
 .slide-team {
   padding: 45px 46px;
   h2 {
     // @extend %plaid-xxl;
     font-size: 72px;
     line-height: 86px;
-    font-family: "Plaid Trial"  sans serif;
+    font-family: "Plaid Trial",  sans serif;
     font-weight: 800;
 
     color: $light;
@@ -837,7 +837,7 @@ div.slide-background.slide.level2.slide-image-full {
     // @extend %space-mono-l
     font-size: 30px;
     line-height: 36px;
-    font-family: "Space Mono" sans serif;
+    font-family: "Space Mono", sans serif;
     font-weight: 400;
 
     color: $light;
@@ -885,6 +885,7 @@ div.slide-background.slide.level2.slide-image-full {
   }
 }
 
+// - 18 - Slide for partner logos
 div.slide-background.slide.level2.slide-partners {
   background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
   background-repeat: no-repeat;
@@ -892,7 +893,7 @@ div.slide-background.slide.level2.slide-partners {
   background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
 }
 
-// 17 Slide for partner logos
+
 .slide-partners {
   padding: 53px 62px;
     // position: relative;
@@ -900,7 +901,7 @@ div.slide-background.slide.level2.slide-partners {
       // @extend %plaid-xxl;
       font-size: 72px;
       line-height: 86px;
-      font-family: "Plaid Trial"  sans serif;
+      font-family: "Plaid Trial",  sans serif;
       font-weight: 800;
   
       color: $light;
@@ -913,7 +914,8 @@ div.slide-background.slide.level2.slide-partners {
     }
 }
 
-// Slide with full height left image (variety of options) + right text column
+// - 19 - Slide with full height left image (variety of options) + right text column
+// v7, v8
 div.slide-background.slide.level2.slide-full-image-l-text-r-v7 {
   background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-7.png");
   background-repeat: no-repeat;
@@ -946,7 +948,7 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
       // @extend %plaid-xl-extrabold;
       font-size: 48px;
       line-height: 57px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 800;
     }
 
@@ -954,7 +956,7 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
       // @extend %plaid-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 400;
 
     }
@@ -963,7 +965,7 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
       // @extend %space-mono-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Space Mono" sans serif;
+      font-family: "Space Mono", sans serif;
       font-weight: 400;
 
       margin-bottom: 15px;
@@ -973,7 +975,7 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
 }
 
 
-// 18 Slide final - title w/ black bg
+// 20 Slide final - title w/ black bg
 div.slide-background.slide.level2.slide-outro {
   background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
   background-repeat: no-repeat;
@@ -987,7 +989,7 @@ div.slide-background.slide.level2.slide-outro {
       // @extend %plaid-xxl;
       font-size: 72px;
       line-height: 86px;
-      font-family: "Plaid Trial"  sans serif;
+      font-family: "Plaid Trial",  sans serif;
       font-weight: 800;
   
       color: $light;
@@ -1018,7 +1020,7 @@ div.slide-background.slide.level2.slide-outro {
       // @extend %plaid-xl-extrabold;
       font-size: 48px;
       line-height: 57px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 800;
     }
 
@@ -1026,7 +1028,7 @@ div.slide-background.slide.level2.slide-outro {
       // @extend %plaid-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Plaid Trial" sans serif;
+      font-family: "Plaid Trial", sans serif;
       font-weight: 400;
     }
 
@@ -1034,7 +1036,7 @@ div.slide-background.slide.level2.slide-outro {
       // @extend %space-mono-m;
       font-size: 18px;
       line-height: 21px;
-      font-family: "Space Mono" sans serif;
+      font-family: "Space Mono", sans serif;
       font-weight: 400;
     }
 
