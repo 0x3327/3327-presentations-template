@@ -1,12 +1,3 @@
-
-<!-- <script>
-Reveal.initialize({
-  width: 1440,
-  height: 900,
-  center: false,
-  });
-  </script> -->
----
 title: "3327 test" 
 format: 
   revealjs: 
