@@ -1,4 +1,20 @@
+<<<<<<< HEAD
 title: "3327 test" 
+=======
+
+<!-- <script>
+Reveal.initialize({
+  width: 1440,
+  height: 900,
+  center: false,
+  });
+  </script> -->
+---
+title: "3327 Presentation" 
+subtitle: "Available slides"
+author: Nikola Tesla
+<!-- scrollable: true -->
+>>>>>>> 99f624222b10f67cb0f3d712b201803c7e7760ba
 format: 
   revealjs: 
     theme: 3327.scss
@@ -9,10 +25,12 @@ format:
     margin: 0
     max-scale: 2
     min-scale: 0.2 
-    scrollable: true 
+    transition: fade 
+    backgroundTransition: fade
+    link-external-newwindow: true
 --- 
-<!-- 1 - Slide white 3 column w/ subtitle optional-->
-## RECAP FOR HUMANS OF PLANET EARTH {.slide-white-3column}
+<!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
+## RECAP FOR HUMANS OF PLANET EARTH {.slide-classic-w-v1}
 
 ### Still unsure what the heck we are talking about?
 
@@ -29,37 +47,57 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 :::
 ::::
 
-<!-- 2 - Slide white 2 column w/ normalcase and p-->
-## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-white-2column-normalcase}
+<!-- 1-b - Slide black 3 optional columns w/ optioal subtitle-->
+## RECAP FOR HUMANS OF PLANET EARTH {.slide-classic-b-v1}
+
+### Still unsure what the heck we are talking about?
+
+::::{.columns}
+::: {.column} 
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. 
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+:::
+::: {.column}
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+:::
+::::
+
+<!-- 2 - Slide white 2 column w/ normalcase and paragraph-->
+## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-classic-w-v2}
 
 
 ::::{.columns}
+
 ::: {.column} 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
 We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.  
 :::
+
 :::: 
 
-<!-- 3 - Slide white 1 column w/ uppercase and p-->
-## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-white-1column-uppercase}
+<!-- 3 - Slide white 1 column w/ uppercase and paragraph-->
+## We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. {.slide-classic-w-v3}
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
 
 We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.
 
 <!-- 4 - Slide quote green bg-->
-## {.slide-quote-green }
+## {.slide-quote-g }
  
 ### “Go Into the Wild Even if They Don’t Want You to”
  
 Nikola Tesla
 
 <!-- 5 - Slide title centered purple bg-->
-## {.slide-title-purple }
-### LET’S NERD OUT TOGETHER
+## {.slide-title-p }
+### LET’S nerd out together
 
-<!-- 6 - Slide agenda 3 column - white-->
-## {.slide-agenda-3column }
+<!-- 6 - Slide agenda 3 column - white bg-->
+## {.slide-agenda-simple }
 
 ::::{.columns}
 :::{.column}
@@ -72,8 +110,9 @@ Nikola Tesla
 :::
 ::::
 
-<!-- 7 - Slide agenda 2 column w/ subtitles - white-->
-## {.slide-agenda-2column }
+<!-- 7 - 3x2 - Slide agenda  w/ subtitles - white bg-->
+
+## {.slide-agenda-3x2 }
 
 ::::{.columns}
 :::{.column}
@@ -88,6 +127,7 @@ What is 3327 / Our manifesto
 3. Tech
 
 What is 3327 / Our manifesto
+
 
 :::
 :::{.column}
@@ -106,7 +146,50 @@ What is 3327 / Our manifesto
 :::
 ::::
 
-<!-- 8 - Slide with tables darj and white depending on class-->
+<!-- 7 - 4x2 - Slide agenda  w/ subtitles - white bg-->
+## {.slide-agenda-4x2 }
+
+::::{.columns}
+:::{.column}
+1. Home
+
+What is 3327 / Our manifesto
+
+2. Projects
+
+What is 3327 / Our manifesto
+
+3. Tech
+
+What is 3327 / Our manifesto
+
+4. Tech
+
+What is 3327 / Our manifesto
+
+:::
+
+:::{.column}
+5. Art
+
+What is 3327 / Our manifesto
+
+6. Contribute
+
+What is 3327 / Our manifesto
+
+7. About
+
+What is 3327 / Our manifesto
+
+8. Tech
+
+What is 3327 / Our manifesto
+
+:::
+::::
+
+<!-- 8 - Slide with tables dark and light depending on class-->
 ## {.slide-table }
 
 :::: {.dark}
@@ -123,15 +206,14 @@ What is 3327 / Our manifesto
 | Tool | Tool |
 ::::
 
-<!-- 9 - Slide with title without footer text-->
-## Introduction {.slide-title-black-1}
+<!-- 9 - Slide with title without footer text | black bg-->
+## Introduction {.slide-title-b-v1}
 
-<!-- 10 - Slide with title w/ footer text-->
-## BADASS PEOPLE INSPIRED BY A BADASS SCIENTIST {.slide-title-black-2 }
+<!-- 10 - Slide with title w/ footer text | black bg-->
+## BADASS PEOPLE INSPIRED BY A BADASS SCIENTIST {.slide-title-b-v2 }
 
 <!-- 11 - Slide with 2 columns - left text black bg, right text white bg-->
-<!-- background-image="./assets/images/image-full-1.png" background-color="aquamarine" -->
-## {.slide-text-l-text-r}
+## {.slide-b-l-w-r}
 
 ::::{.columns}
 ::: {.column}
@@ -158,37 +240,224 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 :::
 ::::
 
-<!-- n - Slide with image left and text right-->
-## n - {.slide-img-l-text-r background-image="./assets/images/image-full-1.png" background-color="aquamarine"}
+<!-- 11 also - Slide with 2 columns - left text black bg, right image white bg-->
+## {.slide-b-l-w-r}
+
 ::::{.columns}
+::: {.column}
 
-
-::: {.column background-image="./assets/images/image-8.png" }
-
-<!-- ![](./assets/images/image-2.png){.r-stretch} -->
-:::
-
-
-::: {.column }
-<!-- ![logo](./assets/3327-logo-tr-black.svg){.absolute top=5 right=5 width="150" height="150"} -->
-:::
-
-
-::::
-
-
-### n - Recap for humans of planet earth
+### RECAP FOR HUMANS OF PLANET EARTH
 
 We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
-::: 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::: {.column }
+
+![](/assets/images/image-14.png)
+
+:::
 ::::
 
-## n - Slide Title 2 {data-background-image="/assets/templates/blank-white.png"}
-//dal moze sa --css varovima da se skrati posao
-Slide content 2
 
-::: footer
-Custom footer text
+<!-- 12 - Slide w/ full screen image -->
+## {.slide-img-full}
+
+<!-- 13 - Slide w/ 1 custom image in center, either horizontal or vertical -->
+## Image in center {.slide-img-center-w}
+
+![Tech we use Tech we use Tech we use](/assets/images/image-15.png)
+<!-- ![Tech we use Tech we use Tech we use](/assets/images/rounded-image-3.png) -->
+
+<!-- 14 - Slide w/ 2 columns, both white, left is for image, right is for text -->
+## {.slide-img-l-txt-r-w}
+
+::::{.columns}
+::: {.column }
+
+![](/assets/images/image-14.png)
+
 :::
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::::
+
+<!-- 15 - Slide w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text -->
+## {.slide-speaker-img-l-txt-r-w}
+
+::::{.columns}
+
+::: {.column }
+
+::: {.round}
+![](/assets/images/image-13.png)
+:::
+
+:::
+
+::: {.column}
+
+### Aleksandar Stankovic
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in.
+
+We may not be as badass as him, but we love to collaborate with badass people, so drop us a message.
+
+:::
+
+::::
+
+<!-- 16 - Slide for projects list -->
+## Projects {.slide-projects .scrollable}
+
+:::: {.items }
+Substrate Blockchain Starter Kit
+
+Scriptarnica Light
+
+Crypto Gift Cards
+
+NFT Wrapper
+
+Tesseract
+
+Bizzswap
+
+Crypto Trophies
+
+Bizzllet
+
+Stealth DEX PoC L2
+
+Givellet
+
+Smart Contract Vulnerabilities Database
+
+CryptoTimer
+
+MACI pallet
+
+::::
+
+<!-- 17 - Slide for team members list w/ image -->
+## Our team {.slide-team .scrollable}
+
+### Core members
+
+:::: {.team }
+
+::: {.member}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Aleksandar Stanković](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Aleksandar Stanković](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Aleksandar Stanković](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Matej Jelić](/assets/images/image-13.png)
+:::
+
+::: {.member}
+![Aleksandar Stanković](/assets/images/image-13.png)
+:::
+
+::::
+
+<!-- 18 - Slide for partner logos -->
+## {.slide-partners}
+
+<!-- 19 - Slide with full height left image (variety of options) + right text column  -->
+<!-- v7, v8 -->
+## {.slide-full-img-l-txt-r-v6-out-transp}
+
+::::{.columns}
+::: {.column }
+:::
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+::::
+
+## {.slide-full-img-l-txt-r-v5-in}
+
+::::{.columns}
+
+::: {.column }
+:::
+
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+
+::::
+
+## {.slide-full-img-l-txt-r-v9}
+
+::::{.columns}
+
+::: {.column }
+:::
+
+::: {.column}
+
+### RECAP FOR HUMANS OF PLANET EARTH
+
+We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers.
+
+Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
+
+- We are a DAO digital collective of 10+ people.
+
+:::
+
+::::
+
+<!-- 20 - Slide final - title w/ black bg-->
+## {.slide-outro}
+
+
