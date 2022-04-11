@@ -2,6 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.183">
+  <meta name="author" content="Nikola Tesla">
   <title>3327 Presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -322,6 +323,8 @@
 
 <section id="title-slide" class="center">
   <h1 class="title">3327 Presentation</h1>
+  <p class="subtitle">Available slides</p>
+  <p class="author">Nikola Tesla</p>
 </section>
 
 <section class="slide level2">
@@ -386,7 +389,7 @@ Reveal.initialize({
 </section>
 <section id="section-1" class="slide level2 slide-title-purple">
 <h2></h2>
-<h3 id="lets-nerd-out-together">LET’S NERD OUT TOGETHER</h3>
+<h3 id="lets-nerd-out-together">LET’S nerd out together</h3>
 <!-- 6 - Slide agenda 3 column - white bg-->
 </section>
 <section id="section-2" class="slide level2 slide-agenda-3column">
@@ -589,8 +592,8 @@ Reveal.initialize({
 <section id="our-team" class="slide level2 slide-team scrollable">
 <h2>Our team</h2>
 <h3 id="core-members">Core members</h3>
-<div class="items">
-<div class="round">
+<div class="team">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -598,7 +601,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -606,7 +609,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -614,7 +617,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -622,7 +625,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -630,7 +633,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -638,7 +641,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -646,7 +649,7 @@ Reveal.initialize({
 </figure>
 </div>
 </div>
-<div class="round">
+<div class="member">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="/assets/images/image-13.png"></p>
@@ -989,6 +992,20 @@ Reveal.initialize({
           return popup.innerHTML;
         });
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+        var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

@@ -104,7 +104,6 @@ $selection-bg: $purple !default;
 
 // headings
 $presentation-heading-font: "Plaid Trial", "Space Mono", sans serif !default;
-// "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, sans serif !default;
 $presentation-heading-color: $dark !default;
 $presentation-heading-text-transform: uppercase !default;
 
@@ -117,6 +116,8 @@ $presentation-heading-text-transform: uppercase !default;
 div.slide-background.slide.level2 {
   padding: 0!important;
 }
+
+div.backgrounds {
 
 // white bg classic
 div.slide-background.slide.level2.slide-white-3column,
@@ -132,6 +133,7 @@ div.slide-background.slide.slide-speaker-image-l-text-r-white {
   background-repeat: no-repeat;
   background-size: 110px 110px, 123px 123px, auto, auto;
   background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+  overflow: hidden;
 }
 
 // black bg classic
@@ -144,37 +146,136 @@ div.slide-background.slide.level2.slide-projects {
   background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px, top 0 left 0;
 }
 
+// - 4 - Slide quote green bg
+div.slide-background.slide.level2.slide-quote-green {
+  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 8vh, center top 32vh, top 0 left 0;
+}
+
+// - 5 -Slide title centered purple bg
+div.slide-background.slide.level2.slide-title-purple {
+  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
+  background-repeat: no-repeat;
+  background-size: 190px 190px, auto, 100%;
+  background-position: center top 15vh, center 40vh, top 0 left 0;
+  
+}
+
+// - 9 - Slide with title without footer text - black bg
+div.slide-background.slide.level2.slide-title-black-1 {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 308px 308px, 100%;
+  background-position: right 69px bottom 67px, top 0 left 0;
+}
+
+// - 10 - Slide with title w/ footer text - black bg
+div.slide-background.slide.level2.slide-title-black-2 {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 308px 308px, auto, 190px 190px, 100%;
+  background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 185px left 62px, top 0 left 0;
+}
+
+// - 11 - Slide with 2 columns - left text black bg, right image white bg
+div.slide-background.slide.level2.slide-black-l-white-r {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 110px 110px, 100%;
+  background-position: right 40px top 40px, top 0 left 0;
+}
+
+// - 12 - Slide w/ full screen image
+div.slide-background.slide.level2.slide-image-full {
+  background-image: url("/assets/images/image-full-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+// - 18 - Slide for partner logos
+div.slide-background.slide.level2.slide-partners {
+  background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+  background-repeat: no-repeat;
+  background-size: 80% auto, auto, 110px 110px, 123px 123px, auto, auto;
+  background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+}
+
+// - 19 - Slide with full height left image (variety of options) + right text column
+// v7, v8
+div.slide-background.slide.level2.slide-full-image-l-text-r-v7 {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-7.png");
+  background-repeat: no-repeat;
+  background-size: 110px 110px, auto 100%;
+  background-position: right 40px top 40px, bottom 0 left 0;
+}
+
+div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-8.png");
+  background-repeat: no-repeat;
+  background-size: 110px 110px, auto 100%;
+  background-position: right 40px top 40px, bottom 0 left 0;
+}
+
+// 20 Slide final - title w/ black bg
+div.slide-background.slide.level2.slide-outro {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 308px 308px, 190px 190px, auto, auto, 100%;
+  background-position: right 69px bottom 67px, top 99px left 62px, top 194px right 62px, top 54px right 62px, top 0 left 0;
+}
+
+}
+
+.slide.level2 {
+  h2 {
+    @extend %plaid-xxl;
+    
+    text-transform: uppercase;
+  }
+
+  h3 {
+    @extend %space-mono-l;
+  }
+  p {
+    @extend %plaid-m;
+  }
+
+}
+
 // - 1-w & 1-b - Slides black and white versions 3 optional columns w/ optioal subtitle
-.slide-white-3column,
-.slide-black-3column {
+.slide.level2.slide-white-3column,
+.slide.level2.slide-black-3column {
   // @extend %blank-white;
   padding: 114px 52px;
   
   h2 {
     // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
+    // font-size: 72px;
+    // line-height: 86px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 800;
     
-    text-transform: uppercase;
+    // text-transform: uppercase;
     display: inline-block;
     width: 70%;
     
   }
   h3 {
     // @extend %space-mono-l;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono",  sans serif;
-    font-weight: 400;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono",  sans serif;
+    // font-weight: 400;
 
     text-transform: none;
     display: inline-block;
     width: 70%;
   }
   p {
-    @extend %plaid-m;
+    // @extend %plaid-m;
     color: $gray;
   }
 
@@ -184,24 +285,24 @@ div.slide-background.slide.level2.slide-projects {
   }
 }
 
-.slide-black-3column {
-  h2, h3, h4 p, .column p, li {
+.slide.level2.slide-black-3column {
+  h2, h3, h4, p, .column p, li {
     color: $light;
   }
 
 }
 
 // - 2 - Slide white 2 column w/ normalcase and paragraph
-.slide-white-2column-normalcase {
+.slide.level2.slide-white-2column-normalcase {
   // @extend %blank-white;
   padding: 114px 52px;
   
   h2 {
-    // @extend %plaid-xl-semibold;
-    font-size: 48px;
-    line-height: 57px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 600;
+    @extend %plaid-xl-semibold;
+    // font-size: 48px;
+    // line-height: 57px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 600;
     
     margin-bottom: 50px;
     text-transform: none;
@@ -210,11 +311,11 @@ div.slide-background.slide.level2.slide-projects {
     
   }
   h3 {
-    // @extend %space-mono-l;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono",  sans serif;
-    font-weight: 400;
+    @extend %space-mono-l;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono",  sans serif;
+    // font-weight: 400;
 
     margin-bottom: 50px;
     text-transform: none;
@@ -222,11 +323,11 @@ div.slide-background.slide.level2.slide-projects {
     width: 70%;
   }
   p {
-    // @extend %space-mono-m-2;
-    font-size: 21px;
-    line-height: 25px;
-    font-family: "Space Mono", sans serif;
-    font-weight: 400;
+    @extend %space-mono-m-2;
+    // font-size: 21px;
+    // line-height: 25px;
+    // font-family: "Space Mono", sans serif;
+    // font-weight: 400;
 
   }
 
@@ -237,16 +338,16 @@ div.slide-background.slide.level2.slide-projects {
 }
 
 // - 3 - Slide white 1 column w/ uppercase and paragraph
-.slide-white-1column-uppercase {
+.slide.level2.slide-white-1column-uppercase {
   // @extend %blank-white;
   padding: 114px 52px;
   
   h2 {
-    // @extend %plaid-xl-semibold;
-    font-size: 48px;
-    line-height: 57px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 600;
+    @extend %plaid-xl-semibold;
+    // font-size: 48px;
+    // line-height: 57px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 600;
     
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -255,11 +356,11 @@ div.slide-background.slide.level2.slide-projects {
     
   }
   p {
-    // @extend %space-mono-l;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono",  sans serif;
-    font-weight: 400;
+    @extend %space-mono-l;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono",  sans serif;
+    // font-weight: 400;
 
     margin: 0;
     text-transform: none;
@@ -270,109 +371,103 @@ div.slide-background.slide.level2.slide-projects {
 }
 
 // - 4 - Slide quote green bg
-div.slide-background.slide.level2.slide-quote-green {
-  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 8vh, center top 32vh, top 0 left 0;
-}
-
-
-.slide-quote-green {
+.slide.level2.slide-quote-green {
   text-align: center;
 
-  h2 {
-    margin-bottom: 55vh;
-  }
 
   h3 {
-    // @extend %plaid-xl-extrabold;
-    font-size: 48px;
-    line-height: 57px;
-    font-family: "Plaid Trial", sans serif;
-    font-weight: 800;
+    @extend %plaid-xl-extrabold;
+    // font-size: 48px;
+    // line-height: 57px;
+    // font-family: "Plaid Trial", sans serif;
+    // font-weight: 800;
     
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     text-transform: uppercase;
     display: inline-block;
     width: 70%;
-    
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 30vh;
+    // text-align: center;
+        
   }
   p {
-    // @extend %space-mono-l;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono", sans serif;
-    font-weight: 400;
+    @extend %space-mono-l;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono", sans serif;
+    // font-weight: 400;
 
-    margin: 0;
     text-transform: none;
     display: inline-block;
     width: 55%;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20vh;
   }
 
 }
 
-// - 5 -Slide title centered purple bg
-div.slide-background.slide.level2.slide-title-purple {
-  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 15vh, center 40vh, top 0 left 0;
-}
 
-.slide-title-purple {
+// - 5 -Slide title centered purple bg
+.slide.level2.slide-title-purple {
   text-align: center;
   color: $light;
 
-  h2 {
-    margin-bottom: 55vh;
-  }
-
   h3 {
-    // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
-    
+    @extend %plaid-xxl;
+
     color: $light;
-    text-transform: uppercase;
     display: inline-block;
     width: 60%;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20vh;
     
   }
 
 }
 
 // - 6 - Slide agenda 3 column - white bg
-.slide-agenda-3column {
-  // @extend %blank-white;
+.slide.level2.slide-agenda-3column {
   padding: 114px 52px;
   
   h2 {
-    // @extend %plaid-xl-semibold;
-    font-size: 48px;
-    line-height: 57px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 600;
+    @extend %plaid-xl-semibold;
+    // font-size: 48px;
+    // line-height: 57px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 600;
     
     margin-bottom: 50px;
     text-transform: uppercase;
     
   }
   .column {
-    width: 33%;
+    width: 40%;
     ol {
       counter-reset: item;
       list-style-type: none;
     
       li {
-        // @extend %plaid-l-2;
-        font-size: 40px;
-        line-height: 36px;
-        font-family: "Plaid Trial", sans serif;
-        font-weight: 800;
+        @extend %plaid-l-2;
+        // font-size: 40px;
+        // line-height: 36px;
+        // font-family: "Plaid Trial", sans serif;
+        // font-weight: 800;
 
         text-transform: uppercase;
         list-style-type: none;
@@ -387,16 +482,15 @@ div.slide-background.slide.level2.slide-title-purple {
 }
 
 // - 7 - Slide agenda 2 column w/ subtitles - white bg
-.slide-agenda-2column {
-  // @extend %blank-white;
+.slide.level2.slide-agenda-2column {
   padding: 114px 52px;
   
   h2 {
     // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
+    // font-size: 72px;
+    // line-height: 86px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 800;
     
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -416,11 +510,11 @@ div.slide-background.slide.level2.slide-title-purple {
       margin: 0!important;
     
       li {
-        // @extend %plaid-xl-extrabold;
-        font-size: 58px;
-        line-height: 57px;
-        font-family: "Plaid Trial", sans serif;
-        font-weight: 800;
+        @extend %plaid-xl-extrabold;
+        // font-size: 58px;
+        // line-height: 57px;
+        // font-family: "Plaid Trial", sans serif;
+        // font-weight: 800;
 
         text-transform: uppercase;
         list-style-type: none;
@@ -431,11 +525,11 @@ div.slide-background.slide.level2.slide-title-purple {
     }
   }
   p {
-    // @extend %plaid-m;
-    font-size: 18px;
-    line-height: 21px;
-    font-family: "Plaid Trial", sans serif;
-    font-weight: 400;
+    @extend %plaid-m;
+    // font-size: 18px;
+    // line-height: 21px;
+    // font-family: "Plaid Trial", sans serif;
+    // font-weight: 400;
 
     margin-top: 0;
     margin-bottom: 30px;
@@ -449,7 +543,7 @@ div.slide-background.slide.level2.slide-title-purple {
 }
 
 // - 8 - Slide with tables dark and light depending on class
-.slide-table {
+.slide.level2.slide-table {
   padding: 114px 52px;
   
   table {
@@ -464,21 +558,21 @@ div.slide-background.slide.level2.slide-title-purple {
       th {
         padding: 22px 13px;
 
-        // @extend %plaid-m;
-        font-size: 28px;
-        line-height: 21px;
-        font-family: "Plaid Trial", sans serif;
-        font-weight: 400;
+        @extend %plaid-m;
+        // font-size: 28px;
+        // line-height: 21px;
+        // font-family: "Plaid Trial", sans serif;
+        // font-weight: 400;
       }
       tr {
         border: 2px solid $dark;
         background-color: $light;
 
-        // @extend %plaid-l;
-        font-size: 24px;
-        line-height: 28px;
-        font-family: "Plaid Trial", sans serif;
-        font-weight: 600;
+        @extend %plaid-l;
+        // font-size: 24px;
+        // line-height: 28px;
+        // font-family: "Plaid Trial", sans serif;
+        // font-weight: 600;
 
         td {
           padding: 22px 30px;
@@ -520,32 +614,19 @@ div.slide-background.slide.level2.slide-title-purple {
 
 }
 
+
 // - 9 - Slide with title without footer text - black bg
-div.slide-background.slide.level2.slide-title-black-1 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, 100%;
-  background-position: right 69px bottom 67px, top 0 left 0;
-}
-
 // - 10 - Slide with title w/ footer text - black bg
-div.slide-background.slide.level2.slide-title-black-2 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, auto, 190px 190px, 100%;
-  background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 185px left 62px, top 0 left 0;
-}
-
-.slide-title-black-1,
-.slide-title-black-2 {
+.slide.level2.slide-title-black-1,
+.slide.level2.slide-title-black-2 {
   padding: 53px 64px;
 
   h2 {
     // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
+    // font-size: 72px;
+    // line-height: 86px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 800;
 
     color: $light;
     padding-bottom: 53px;
@@ -555,15 +636,9 @@ div.slide-background.slide.level2.slide-title-black-2 {
   }
 }
 
-// - 11 - Slide with 2 columns - left text black bg, right image white bg
-div.slide-background.slide.level2.slide-black-l-white-r {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
-  background-repeat: no-repeat;
-  background-size: 110px 110px, 100%;
-  background-position: right 40px top 40px, top 0 left 0;
-}
 
-.slide-black-l-white-r {
+// - 11 - Slide with 2 columns - left text black bg, right image white bg
+.slide.level2.slide-black-l-white-r {
   
   .column {
     width: 50%;
@@ -574,27 +649,27 @@ div.slide-background.slide.level2.slide-black-l-white-r {
     vertical-align:middle;
 
     h3 {
-      // @extend %plaid-xl-extrabold;
-      font-size: 48px;
-      line-height: 57px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 800;
+      @extend %plaid-xl-extrabold;
+      // font-size: 48px;
+      // line-height: 57px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 800;
     }
 
     p {
-      // @extend %plaid-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 400;
+      @extend %plaid-m;
+      // font-size: 18px;
+      // line-height: 21px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 400;
     }
 
     li, li p {
-      // @extend %space-mono-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Space Mono", sans serif;
-      font-weight: 400;
+      @extend %space-mono-m;
+      // font-size: 18px;
+      // line-height: 21px;
+      // font-family: "Space Mono", sans serif;
+      // font-weight: 400;
 
       margin-bottom: 15px;
     }
@@ -619,36 +694,34 @@ div.slide-background.slide.level2.slide-black-l-white-r {
   }
 
 }
-// - 12 - Slide w/ full screen image
-div.slide-background.slide.level2.slide-image-full {
-  background-image: url("/assets/images/image-full-2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
 
-.slide-image-full {
+// - 12 - Slide w/ full screen image
+.slide.level2.slide-image-full {
   color: $light;
 }
+
 // - 13 - Slide w/ 1 custom image in center, either horizontal or vertical 
-.slide-image-center-white {
+.slide.level2.slide-image-center-white {
   text-align: center;
 
   h2 {
-    // @extend %plaid-xxl;
+    @extend %plaid-xxl;
+
     padding: 46px 0 0 45px;
     text-align: left;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
+
+    // font-size: 72px;
+    // line-height: 86px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 800;
   }
 
   p.caption {
-    font-size: 18px;
-    line-height: 21px;
-    font-family: "Plaid Trial", sans serif;
-    font-weight: 400;
+    @extend %plaid-m;
+    // font-size: 18px;
+    // line-height: 21px;
+    // font-family: "Plaid Trial", sans serif;
+    // font-weight: 400;
 
     color: $gray;
   }
@@ -661,9 +734,10 @@ div.slide-background.slide.level2.slide-image-full {
 
   }
 }
-// - 14 - Slide w/ 2 columns, both white, left is fore images, right is for text
-.slide-image-l-text-r-white,
-.slide-speaker-image-l-text-r-white {
+
+// - 14 - Slide w/ 2 columns, both white, left is for images, right is for text
+.slide.level2.slide-image-l-text-r-white,
+.slide.level2.slide-speaker-image-l-text-r-white {
   
   .column {
     width: 50%;
@@ -674,27 +748,27 @@ div.slide-background.slide.level2.slide-image-full {
     vertical-align:middle;
 
     h3 {
-      // @extend %plaid-xl-extrabold;
-      font-size: 48px;
-      line-height: 57px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 800;
+      @extend %plaid-xl-extrabold;
+      // font-size: 48px;
+      // line-height: 57px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 800;
     }
 
     p {
-      // @extend %plaid-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 400;
+      @extend %plaid-m;
+      // font-size: 18px;
+      // line-height: 21px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 400;
     }
 
     li, li p {
-      // @extend %space-mono-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Space Mono", sans serif;
-      font-weight: 400;
+      @extend %space-mono-m;
+      // font-size: 18px;
+      // line-height: 21px;
+      // font-family: "Space Mono", sans serif;
+      // font-weight: 400;
 
       margin-bottom: 15px;
     }
@@ -706,18 +780,14 @@ div.slide-background.slide.level2.slide-image-full {
   }
 
   .column:nth-of-type(1) {
-    // color: $light;
     padding-left: 2%;
     padding-right: 5%;
     text-align:center;
-    // h2, h3, h4 {
-    //   color: $light;
-    // }
+  
     
   }
 
   .column:nth-of-type(2) {
-    // color: $dark;
     padding-left: 5%;
     padding-right: 2%;
   }
@@ -725,15 +795,15 @@ div.slide-background.slide.level2.slide-image-full {
 }
 
 // - 15 - Slide for speakers w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text
-.slide-speaker-image-l-text-r-white {
+.slide.level2.slide-speaker-image-l-text-r-white {
   .column {
     display: inline-block;
     h3 {
-      // @extend %plaid-xl-semibold;
-      font-size: 48px;
-      line-height: 57px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 600;
+      @extend %plaid-xl-semibold;
+      // font-size: 48px;
+      // line-height: 57px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 600;
 
       width: min-content;
     }
@@ -760,32 +830,32 @@ div.slide-background.slide.level2.slide-image-full {
 
   .column:nth-of-type(2) {
     padding: 14% 2% 0 2%;
+    p {
+      @extend %plaid-m-2;
+    }
   }
 
 }
 
-
-
-
 // - 16 - Slide for projects list
-.slide-projects {
+.slide.level2.slide-projects {
   padding: 45px 46px;
   h2 {
-    // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
+    @extend %plaid-xxl;
+    // font-size: 72px;
+    // line-height: 86px;
+    // font-family: "Plaid Trial",  sans serif;
+    // font-weight: 800;
 
     color: $light;
   }
 
   h3 {
-    // @extend %space-mono-l
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono", sans serif;
-    font-weight: 400;
+    @extend %space-mono-l;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono", sans serif;
+    // font-weight: 400;
 
     color: $light;
     text-transform: none;
@@ -796,11 +866,11 @@ div.slide-background.slide.level2.slide-image-full {
     height: 100%;
 
   p {
-    // @extend %plaid-l;
-    font-size: 24px;
-    line-height: 28px;
-    font-family: "Plaid Trial", sans serif;
-    font-weight: 600;
+    @extend %plaid-l;
+    // font-size: 24px;
+    // line-height: 28px;
+    // font-family: "Plaid Trial", sans serif;
+    // font-weight: 600;
 
     color: $light;
     // display: inline-block;
@@ -821,34 +891,28 @@ div.slide-background.slide.level2.slide-image-full {
 }
 
 // - 17 - Slide for team members list w/ image
-.slide-team {
+.slide.level2.slide-team {
   padding: 45px 46px;
   h2 {
-    // @extend %plaid-xxl;
-    font-size: 72px;
-    line-height: 86px;
-    font-family: "Plaid Trial",  sans serif;
-    font-weight: 800;
-
     color: $light;
   }
 
   h3 {
     // @extend %space-mono-l
-    font-size: 30px;
-    line-height: 36px;
-    font-family: "Space Mono", sans serif;
-    font-weight: 400;
+    // font-size: 30px;
+    // line-height: 36px;
+    // font-family: "Space Mono", sans serif;
+    // font-weight: 400;
 
     color: $light;
     text-transform: none;
   }
 
-  .items {
+  .team {
     width: 1200px;
     height: 100%;
 
-    .round {
+    .member {
       width: 322px;
       height: 100px;
       padding: 18px;
@@ -879,31 +943,17 @@ div.slide-background.slide.level2.slide-image-full {
           }
       } 
 
-      .round:nth-child(3n-2) {
+      .member:nth-child(3n-2) {
         border-left: 2px solid $light;
       }
   }
 }
 
 // - 18 - Slide for partner logos
-div.slide-background.slide.level2.slide-partners {
-  background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
-  background-repeat: no-repeat;
-  background-size: 80% auto, auto, 110px 110px, 123px 123px, auto, auto;
-  background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
-}
-
-
-.slide-partners {
+.slide.level2.slide-partners {
   padding: 53px 62px;
     // position: relative;
-    h2 {
-      // @extend %plaid-xxl;
-      font-size: 72px;
-      line-height: 86px;
-      font-family: "Plaid Trial",  sans serif;
-      font-weight: 800;
-  
+    h2 {  
       color: $light;
       padding-top: 220px;
       display: inline-block;
@@ -916,23 +966,8 @@ div.slide-background.slide.level2.slide-partners {
 
 // - 19 - Slide with full height left image (variety of options) + right text column
 // v7, v8
-div.slide-background.slide.level2.slide-full-image-l-text-r-v7 {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-7.png");
-  background-repeat: no-repeat;
-  background-size: 110px 110px, auto 100%;
-  background-position: right 40px top 40px, bottom 0 left 0;
-}
-
-div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-8.png");
-  background-repeat: no-repeat;
-  background-size: 110px 110px, auto 100%;
-  background-position: right 40px top 40px, bottom 0 left 0;
-}
-
-
-.slide-full-image-l-text-r-v7,
-.slide-full-image-l-text-r-v8 {
+.slide.level2.slide-full-image-l-text-r-v7,
+.slide.level2.slide-full-image-l-text-r-v8 {
   .column {
     // margin-left: 50%;
     padding-right: 2%;
@@ -945,28 +980,28 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
     vertical-align:middle;
 
     h3 {
-      // @extend %plaid-xl-extrabold;
-      font-size: 48px;
-      line-height: 57px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 800;
+      @extend %plaid-xl-extrabold;
+      // font-size: 48px;
+      // line-height: 57px;
+      // font-family: "Plaid Trial", sans serif;
+      // font-weight: 800;
     }
 
-    p {
-      // @extend %plaid-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 400;
+    // p {
+    //   // @extend %plaid-m;
+    //   font-size: 18px;
+    //   line-height: 21px;
+    //   font-family: "Plaid Trial", sans serif;
+    //   font-weight: 400;
 
-    }
+    // }
 
     li, li p {
-      // @extend %space-mono-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Space Mono", sans serif;
-      font-weight: 400;
+      @extend %space-mono-m;
+      // font-size: 18px;
+      // line-height: 21px;
+      // font-family: "Space Mono", sans serif;
+      // font-weight: 400;
 
       margin-bottom: 15px;
     }
@@ -974,24 +1009,10 @@ div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
   }
 }
 
-
 // 20 Slide final - title w/ black bg
-div.slide-background.slide.level2.slide-outro {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, 190px 190px, auto, auto, 100%;
-  background-position: right 69px bottom 67px, top 99px left 62px, top 194px right 62px, top 54px right 62px, top 0 left 0;
-}
-
-  .slide-outro {
+.slide.level2.slide-outro {
     padding: 53px 62px;
     h2 {
-      // @extend %plaid-xxl;
-      font-size: 72px;
-      line-height: 86px;
-      font-family: "Plaid Trial",  sans serif;
-      font-weight: 800;
-  
       color: $light;
       padding-top: 220px;
       display: inline-block;
@@ -1009,36 +1030,76 @@ div.slide-background.slide.level2.slide-outro {
 
 
 // ---------------------------------------------------------------------
-// old code bellow
+// responsiveness
 
-.slide-img-l-text-r {
-  // background-color: #62F0AC;
-  position: relative;
-  .column {
-    width: 50%;
-    h3 {
-      // @extend %plaid-xl-extrabold;
-      font-size: 48px;
-      line-height: 57px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 800;
-    }
 
-    p {
-      // @extend %plaid-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Plaid Trial", sans serif;
-      font-weight: 400;
-    }
 
-    li {
-      // @extend %space-mono-m;
-      font-size: 18px;
-      line-height: 21px;
-      font-family: "Space Mono", sans serif;
-      font-weight: 400;
-    }
+@media only screen and (max-width: 1400px) {
 
-  }
+// white bg classic
+div.slide-background.slide.level2.slide-white-3column,
+div.slide-background.slide.level2.slide-white-2column-normalcase,
+div.slide-background.slide.level2.slide-white-1column-uppercase,
+div.slide-background.slide.level2.slide-agenda-3column,
+div.slide-background.slide.level2.slide-agenda-2column,
+div.slide-background.slide.level2.slide-table,
+div.slide-background.slide.slide-image-center-white,
+div.slide-background.slide.slide-image-l-text-r-white,
+div.slide-background.slide.slide-speaker-image-l-text-r-white {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+  background-repeat: no-repeat;
+  background-size: 70px 70px, 75px 75px, 250px auto, auto 10px;
+  background-position: right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
+}
+
+// black bg classic
+div.slide-background.slide.level2.slide-black-3column,
+div.slide-background.slide.level2.slide-team,
+div.slide-background.slide.level2.slide-projects {
+  background-image: url("/assets/template-elements/3327-logo-tr-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-white.svg"), url("/assets/template-elements/footer-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 70px 70px, 75px 75px, 250px auto, auto 10px, 100%;
+  background-position: right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px, top 0 left 0;
+}
+
+// - 9 - Slide with title without footer text - black bg
+div.slide-background.slide.level2.slide-title-black-1 {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 100%;
+  background-position: right 69px bottom 67px, top 0 left 0;
+}
+
+// - 10 - Slide with title w/ footer text - black bg
+div.slide-background.slide.level2.slide-title-black-2 {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 200px 200px, auto 40px, 130px 130px, 100%;
+  background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 135px left 62px, top 0 left 0;
+}
+
+// - 11 - Slide with 2 columns - left text black bg, right image white bg
+div.slide-background.slide.level2.slide-black-l-white-r {
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 70px 70px, 100%;
+  background-position: right 40px top 40px, top 0 left 0;
+}
+
+// - 18 - Slide for partner logos
+div.slide-background.slide.level2.slide-partners {
+  background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+  background-repeat: no-repeat;
+  background-size: 80% auto, auto, 70px 70px, 75px 75px, 250px auto, auto 10px;
+  background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
+}
+
+// 20 Slide final - title w/ black bg
+div.slide-background.slide.level2.slide-outro {
+  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+  background-repeat: no-repeat;
+  background-size: 200px 200px, 130px 130px, 720px auto, auto, 100%;
+  background-position: right 69px bottom 67px, top 99px left 62px, top 164px right 62px, top 54px right 62px, top 0 left 0;
+}
+
 }

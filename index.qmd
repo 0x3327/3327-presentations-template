@@ -8,6 +8,9 @@ Reveal.initialize({
   </script> -->
 ---
 title: "3327 Presentation" 
+subtitle: "Available slides"
+author: Nikola Tesla
+scrollable: true
 format: 
   revealjs: 
     theme: 3327.scss
@@ -18,9 +21,9 @@ format:
     margin: 0
     max-scale: 2
     min-scale: 0.2 
-    scrollable: true
     transition: fade 
     backgroundTransition: fade
+    link-external-newwindow: true
 --- 
 <!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
 ## RECAP FOR HUMANS OF PLANET EARTH {.slide-white-3column}
@@ -85,7 +88,7 @@ Nikola Tesla
 
 <!-- 5 - Slide title centered purple bg-->
 ## {.slide-title-purple }
-### LET’S NERD OUT TOGETHER
+### LET’S nerd out together
 
 <!-- 6 - Slide agenda 3 column - white bg-->
 ## {.slide-agenda-3column }
@@ -302,37 +305,37 @@ MACI pallet
 
 ### Core members
 
-:::: {.items }
+:::: {.team }
 
-::: {.round}
+::: {.member}
 ![Matej Jelić](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Aleksandar Stanković](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Matej Jelić](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Aleksandar Stanković](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Matej Jelić](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Aleksandar Stanković](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Matej Jelić](/assets/images/image-13.png)
 :::
 
-::: {.round}
+::: {.member}
 ![Aleksandar Stanković](/assets/images/image-13.png)
 :::
 
@@ -343,7 +346,6 @@ MACI pallet
 
 <!-- 19 - Slide with full height left image (variety of options) + right text column  -->
 <!-- v7, v8 -->
-
 ## {.slide-full-image-l-text-r-v7}
 
 ::::{.columns}
