@@ -121,117 +121,7 @@ div.slide-background.slide.level2 {
   padding: 0!important;
 }
 
-div.backgrounds {
 
-// white bg classic
-div.slide-background.slide.level2.slide-white-3column,
-div.slide-background.slide.level2.slide-white-2column-normalcase,
-div.slide-background.slide.level2.slide-white-1column-uppercase,
-div.slide-background.slide.level2.slide-agenda-3column,
-div.slide-background.slide.level2.slide-agenda-2column,
-div.slide-background.slide.level2.slide-table,
-div.slide-background.slide.slide-image-center-white,
-div.slide-background.slide.slide-image-l-text-r-white,
-div.slide-background.slide.slide-speaker-image-l-text-r-white {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
-  background-repeat: no-repeat;
-  background-size: 110px 110px, 123px 123px, auto, auto;
-  background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
-  overflow: hidden;
-}
-
-// black bg classic
-div.slide-background.slide.level2.slide-black-3column,
-div.slide-background.slide.level2.slide-team,
-div.slide-background.slide.level2.slide-projects {
-  background-image: url("/assets/template-elements/3327-logo-tr-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-white.svg"), url("/assets/template-elements/footer-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 110px 110px, 123px 123px, auto, auto, 100%;
-  background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px, top 0 left 0;
-}
-
-// - 4 - Slide quote green bg
-div.slide-background.slide.level2.slide-quote-green {
-  background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 13vh, center top 38vh, top 0 left 0;
-}
-
-// - 5 -Slide title centered purple bg
-div.slide-background.slide.level2.slide-title-purple {
-  background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
-  background-repeat: no-repeat;
-  background-size: 190px 190px, auto, 100%;
-  background-position: center top 20vh, center 45vh, top 0 left 0;
-  
-}
-
-// - 9 - Slide with title without footer text - black bg
-div.slide-background.slide.level2.slide-title-black-1 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, 100%;
-  background-position: right 69px bottom 67px, top 0 left 0;
-}
-
-// - 10 - Slide with title w/ footer text - black bg
-div.slide-background.slide.level2.slide-title-black-2 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, auto, 190px 190px, 100%;
-  background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 185px left 62px, top 0 left 0;
-}
-
-// - 11 - Slide with 2 columns - left text black bg, right image white bg
-div.slide-background.slide.level2.slide-black-l-white-r {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
-  background-repeat: no-repeat;
-  background-size: 110px 110px, 100%;
-  background-position: right 40px top 40px, top 0 left 0;
-}
-
-// - 12 - Slide w/ full screen image
-div.slide-background.slide.level2.slide-image-full {
-  background-image: url("/assets/images/image-full-2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-// - 18 - Slide for partner logos
-div.slide-background.slide.level2.slide-partners {
-  background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
-  background-repeat: no-repeat;
-  background-size: 80% auto, auto, 110px 110px, 123px 123px, auto, auto;
-  background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
-}
-
-// - 19 - Slide with full height left image (variety of options) + right text column
-// v7, v8
-div.slide-background.slide.level2.slide-full-image-l-text-r-v7 {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-7.png");
-  background-repeat: no-repeat;
-  background-size: 110px 110px, auto 100%;
-  background-position: right 40px top 40px, bottom 0 left 0;
-}
-
-div.slide-background.slide.level2.slide-full-image-l-text-r-v8 {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"),  url("/assets/images/image-8.png");
-  background-repeat: no-repeat;
-  background-size: 110px 110px, auto 100%;
-  background-position: right 40px top 40px, bottom 0 left 0;
-}
-
-// 20 Slide final - title w/ black bg
-div.slide-background.slide.level2.slide-outro {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 308px 308px, 190px 190px, auto, auto, 100%;
-  background-position: right 69px bottom 67px, top 99px left 62px, top 194px right 62px, top 54px right 62px, top 0 left 0;
-}
-
-}
 
 .slide.level2 {
   h2 {
@@ -250,8 +140,8 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 1-w & 1-b - Slides black and white versions 3 optional columns w/ optioal subtitle
-.slide.level2.slide-white-3column,
-.slide.level2.slide-black-3column {
+.slide.level2.slide-classic-w-v1,
+.slide.level2.slide-classic-b-v1 {
   padding: 114px 52px;
   
   h2 {
@@ -274,7 +164,7 @@ div.slide-background.slide.level2.slide-outro {
   }
 }
 
-.slide.level2.slide-black-3column {
+.slide.level2.slide-classic-b-v1 {
   h2, h3, h4, p, .column p, li {
     color: $light;
   }
@@ -282,7 +172,7 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 2 - Slide white 2 column w/ normalcase and paragraph
-.slide.level2.slide-white-2column-normalcase {
+.slide.level2.slide-classic-w-v2 {
   padding: 114px 52px;
   
   h2 {
@@ -313,7 +203,7 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 3 - Slide white 1 column w/ uppercase and paragraph
-.slide.level2.slide-white-1column-uppercase {
+.slide.level2.slide-classic-w-v3 {
   padding: 114px 52px;
   
   h2 {
@@ -337,7 +227,7 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 4 - Slide quote green bg
-.slide.level2.slide-quote-green {
+.slide.level2.slide-quote-g {
   text-align: center;
 
 
@@ -375,7 +265,7 @@ div.slide-background.slide.level2.slide-outro {
 
 
 // - 5 -Slide title centered purple bg
-.slide.level2.slide-title-purple {
+.slide.level2.slide-title-p {
   text-align: center;
   color: $light;
 
@@ -396,8 +286,8 @@ div.slide-background.slide.level2.slide-outro {
   }
 }
 
-// - 6 - Slide agenda 3 column - white bg
-.slide.level2.slide-agenda-3column {
+// - 6 - Slide agenda simple - white bg
+.slide.level2.slide-agenda-simple {
   padding: 114px 52px;
   
   h2 {
@@ -428,8 +318,9 @@ div.slide-background.slide.level2.slide-outro {
   }
 }
 
-// - 7 - Slide agenda 2 column w/ subtitles - white bg
-.slide.level2.slide-agenda-2column {
+// - 7 - Slide agenda 3 items per column  w/ subtitles | 2 column - white bg
+.slide.level2.slide-agenda-3x2,
+.slide.level2.slide-agenda-4x2{
   padding: 114px 52px;
   
   h2 {
@@ -471,6 +362,14 @@ div.slide-background.slide.level2.slide-outro {
   .column:nth-of-type(2) {
     ol:nth-of-type(1) {
       counter-increment: item 4;
+    }
+  }  
+}
+
+.slide.level2.slide-agenda-4x2 {
+  .column:nth-of-type(2) {
+    ol:nth-of-type(1) {
+      counter-increment: item 5;
     }
   }  
 }
@@ -542,8 +441,8 @@ div.slide-background.slide.level2.slide-outro {
 
 // - 9 - Slide with title without footer text - black bg
 // - 10 - Slide with title w/ footer text - black bg
-.slide.level2.slide-title-black-1,
-.slide.level2.slide-title-black-2 {
+.slide.level2.slide-title-b-v1,
+.slide.level2.slide-title-b-v2 {
   padding: 53px 64px;
 
   h2 {
@@ -556,7 +455,7 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 11 - Slide with 2 columns - left text black bg, right image white bg
-.slide.level2.slide-black-l-white-r {
+.slide.level2.slide-b-l-w-r {
   height: 100vh;
   .columns {
     height: 100%;
@@ -608,12 +507,12 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 12 - Slide w/ full screen image
-.slide.level2.slide-image-full {
+.slide.level2.slide-img-full {
   color: $light;
 }
 
 // - 13 - Slide w/ 1 custom image in center, either horizontal or vertical 
-.slide.level2.slide-image-center-white {
+.slide.level2.slide-img-center-w {
   text-align: center;
 
   h2 {
@@ -639,8 +538,8 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 14 - Slide w/ 2 columns, both white, left is for images, right is for text
-.slide.level2.slide-image-l-text-r-white,
-.slide.level2.slide-speaker-image-l-text-r-white {
+.slide.level2.slide-img-l-txt-r-w,
+.slide.level2.slide-speaker-img-l-txt-r-w {
   height: 100vh;
   .columns {
     height: 100%;
@@ -688,7 +587,7 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 15 - Slide for speakers w/ 2 columns, both white, left is for speaker image that will be rounded and right is for text
-.slide.level2.slide-speaker-image-l-text-r-white {
+.slide.level2.slide-speaker-img-l-txt-r-w {
   height: 100vh;
   .columns {
     height: 100%;
@@ -842,9 +741,21 @@ div.slide-background.slide.level2.slide-outro {
 }
 
 // - 19 - Slide with full height left image (variety of options) + right text column
-// v7, v8
-.slide.level2.slide-full-image-l-text-r-v7,
-.slide.level2.slide-full-image-l-text-r-v8 {
+// v7, v8, v6-out-transp etc
+.slide.level2.slide-full-img-l-txt-r,
+.slide.level2.slide-full-img-l-txt-r-v1,
+.slide.level2.slide-full-img-l-txt-r-v2,
+.slide.level2.slide-full-img-l-txt-r-v3,
+.slide.level2.slide-full-img-l-txt-r-v4,
+.slide.level2.slide-full-img-l-txt-r-v5-in,
+.slide.level2.slide-full-img-l-txt-r-v6-in,
+.slide.level2.slide-full-img-l-txt-r-v6-out,
+.slide.level2.slide-full-img-l-txt-r-v6-out-transp,
+.slide.level2.slide-full-img-l-txt-r-v7,
+.slide.level2.slide-full-img-l-txt-r-v8,
+.slide.level2.slide-full-img-l-txt-r-v9,
+.slide.level2.slide-full-img-l-txt-r-v10-in,
+.slide.level2.slide-full-img-l-txt-r-v10-out {
   .columns {
     height: 100%;
     display: flex;
@@ -887,7 +798,204 @@ div.slide-background.slide.level2.slide-outro {
 
   }
 
+//--------------------------------------------------------------------  
+// slide template backgrounds
+
+div.backgrounds {
+
+  // white bg classic
+  div.slide-background.slide.level2.slide-classic-w-v1,
+  div.slide-background.slide.level2.slide-classic-w-v2,
+  div.slide-background.slide.level2.slide-classic-w-v3,
+  div.slide-background.slide.level2.slide-agenda-simple,
+  div.slide-background.slide.level2.slide-agenda-3x2,
+  div.slide-background.slide.level2.slide-agenda-4x2,
+  div.slide-background.slide.level2.slide-table,
+  div.slide-background.slide.slide-img-center-w,
+  div.slide-background.slide.slide-img-l-txt-r-w,
+  div.slide-background.slide.slide-speaker-img-l-txt-r-w {
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw 8vw, 123px 123px, auto, auto;
+    background-position: right 40px top 40px, right 40px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+  }
+  // black bg classic
+  div.slide-background.slide.level2.slide-classic-b-v1,
+  div.slide-background.slide.level2.slide-team,
+  div.slide-background.slide.level2.slide-projects {
+    background-image: url("/assets/template-elements/3327-logo-tr-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-white.svg"), url("/assets/template-elements/footer-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+    background-repeat: no-repeat;
+    background-size: 8vw 8vw, 123px 123px, auto, auto, 100%;
+    background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px, top 0 left 0;
+  }
   
+  // - 4 - Slide quote green bg
+  div.slide-background.slide.level2.slide-quote-g {
+    background-image: url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/vertical-line-black.svg"), linear-gradient(to right, $green 50%, $green 50%);
+    background-repeat: no-repeat;
+    background-size: 190px 190px, auto, 100%;
+    background-position: center top 13vh, center top 38vh, top 0 left 0;
+  }
+  
+  // - 5 -Slide title centered purple bg
+  div.slide-background.slide.level2.slide-title-p {
+    background-image: url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/vertical-line-white.svg"), linear-gradient(to right, $purple 50%, $purple 50%);
+    background-repeat: no-repeat;
+    background-size: 190px 190px, auto, 100%;
+    background-position: center top 20vh, center 45vh, top 0 left 0;
+    
+  }
+  
+  // - 9 - Slide with title without footer text - black bg
+  div.slide-background.slide.level2.slide-title-b-v1 {
+    background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vw, 100%;
+    background-position: right 69px bottom 67px, top 0 left 0;
+  }
+  
+  // - 10 - Slide with title w/ footer text - black bg
+  div.slide-background.slide.level2.slide-title-b-v2 {
+    background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vw, 40vw auto, 12vw 12vw, 100%;
+    background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 185px left 62px, top 0 left 0;
+  }
+  
+  // - 11 - Slide with 2 columns - left text black bg, right image white bg
+  div.slide-background.slide.level2.slide-b-l-w-r {
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 8vw 8vw, 100%;
+    background-position: right 40px top 40px, top 0 left 0;
+  }
+  
+  // - 12 - Slide w/ full screen image
+  div.slide-background.slide.level2.slide-img-full {
+    background-image: url("/assets/images/image-full-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  // - 18 - Slide for partner logos
+  div.slide-background.slide.level2.slide-partners {
+    background-image: url("/assets/template-elements/8-partners.svg"), url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+    background-repeat: no-repeat;
+    background-size: 80% auto, auto, 8vw 8vw, 123px 123px, auto, auto;
+    background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+  }
+  
+  
+  div.slide-background.slide.level2.slide-full-img-l-txt-r {
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg");
+    background-repeat: no-repeat;
+    background-size: 8vw 8vw;
+    background-position: right 40px top 40px;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v1{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-1.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v2{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-2.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v3{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-3.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v4{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-4.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v5-in{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-5-in.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v6-in{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-6-in.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v6-out{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-6-out.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v6-out-transp{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-6-out-transp.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v7{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-7.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v8{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-8.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v9{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-9.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v10-in{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-10-in.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+
+  div.slide-background.slide.level2.slide-full-img-l-txt-r-v10-out{
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/images/image-10-out.png");
+    background-repeat: no-repeat;
+    background-size:  8vw 8vw, auto 100%;
+    background-position: right 40px top 40px, bottom 0 left 0;
+  }
+  
+  // 20 Slide final - title w/ black bg
+  div.slide-background.slide.level2.slide-outro {
+    background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
+    background-repeat: no-repeat;
+    background-size: 20vw 20vw, 190px 190px, 60vw auto, auto, 100%;
+    background-position: right 69px bottom 67px, top 99px left 62px, top 194px right 62px, top 54px right 62px, top 0 left 0;
+  }
+  
+  }
+
+
 // ---------------------------------------------------------------------
 // responsiveness
 
@@ -898,53 +1006,30 @@ div.slide-background.slide.level2.slide-outro {
 div.backgrounds {
 
 // white bg classic
-div.slide-background.slide.level2.slide-white-3column,
-div.slide-background.slide.level2.slide-white-2column-normalcase,
-div.slide-background.slide.level2.slide-white-1column-uppercase,
-div.slide-background.slide.level2.slide-agenda-3column,
-div.slide-background.slide.level2.slide-agenda-2column,
+div.slide-background.slide.level2.slide-classic-w-v1,
+div.slide-background.slide.level2.slide-classic-w-v2,
+div.slide-background.slide.level2.slide-classic-w-v3,
+div.slide-background.slide.level2.slide-agenda-simple,
+div.slide-background.slide.level2.slide-agenda-3x2,
+div.slide-background.slide.level2.slide-agenda-4x2,
 div.slide-background.slide.level2.slide-table,
-div.slide-background.slide.slide-image-center-white,
-div.slide-background.slide.slide-image-l-text-r-white,
-div.slide-background.slide.slide-speaker-image-l-text-r-white {
+div.slide-background.slide.slide-img-center-w,
+div.slide-background.slide.slide-img-l-txt-r-w,
+div.slide-background.slide.slide-speaker-img-l-txt-r-w {
   background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
   background-repeat: no-repeat;
-  background-size: 70px 70px, 75px 75px, 250px auto, auto 10px;
+  background-size: 8vw 8vw, 75px 75px, 30vw auto, auto 10px;
   background-position: right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
 }
 
 // black bg classic
-div.slide-background.slide.level2.slide-black-3column,
+div.slide-background.slide.level2.slide-classic-b-v1,
 div.slide-background.slide.level2.slide-team,
 div.slide-background.slide.level2.slide-projects {
   background-image: url("/assets/template-elements/3327-logo-tr-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-white.svg"), url("/assets/template-elements/footer-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
   background-repeat: no-repeat;
-  background-size: 70px 70px, 75px 75px, 250px auto, auto 10px, 100%;
+  background-size: 8vw 8vw, 75px 75px, 30vw auto, auto 10px, 100%;
   background-position: right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px, top 0 left 0;
-}
-
-// - 9 - Slide with title without footer text - black bg
-div.slide-background.slide.level2.slide-title-black-1 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 200px 200px, 100%;
-  background-position: right 69px bottom 67px, top 0 left 0;
-}
-
-// - 10 - Slide with title w/ footer text - black bg
-div.slide-background.slide.level2.slide-title-black-2 {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/horizontal-line-2-white.svg"), url("/assets/template-elements/star-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 200px 200px, auto 40px, 130px 130px, 100%;
-  background-position: right 69px bottom 67px, bottom 67px left 62px, bottom 135px left 62px, top 0 left 0;
-}
-
-// - 11 - Slide with 2 columns - left text black bg, right image white bg
-div.slide-background.slide.level2.slide-black-l-white-r {
-  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), linear-gradient(to right, $dark 50%, transparent 50%);
-  background-repeat: no-repeat;
-  background-size: 70px 70px, 100%;
-  background-position: right 40px top 40px, top 0 left 0;
 }
 
 // - 18 - Slide for partner logos
@@ -955,12 +1040,5 @@ div.slide-background.slide.level2.slide-partners {
   background-position: center, left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
 }
 
-// 20 Slide final - title w/ black bg
-div.slide-background.slide.level2.slide-outro {
-  background-image: url("/assets/template-elements/3327-logo-br-white.svg"), url("/assets/template-elements/star-white.svg"), url("/assets/template-elements/horizontal-line-3-white.svg"),  url("/assets/template-elements/outro-text-white.svg"), linear-gradient(to right, $dark 50%, $dark 50%);
-  background-repeat: no-repeat;
-  background-size: 200px 200px, 130px 130px, 720px auto, auto, 100%;
-  background-position: right 69px bottom 67px, top 99px left 62px, top 164px right 62px, top 54px right 62px, top 0 left 0;
-}
 }
 }
