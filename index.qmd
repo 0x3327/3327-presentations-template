@@ -1,4 +1,3 @@
-
 <!-- <script>
 Reveal.initialize({
   width: 1440,
@@ -10,28 +9,31 @@ Reveal.initialize({
 title: "3327 Presentation"
 subtitle: "Available slides"
 author: Nikola Tesla
-<!-- scrollable: true -->
 format: 
   revealjs: 
     theme: 3327.scss
-    <!-- width: 1920
-    height: 1080 -->
-    width: 1440
-    height: 900
+    width: 1920
+    height: 1080
     margin: 0
     max-scale: 2
     min-scale: 0.2 
     transition: fade 
     backgroundTransition: fade
-    link-external-newwindow: true
 --- 
-<!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
+
+
 ## RECAP FOR HUMANS OF PLANET EARTH {.slide-classic-w-v1}
+<!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
+
+  <!-- scrollable: true -->
+  <!-- link-external-newwindow: true -->
+  <!-- width: 1440
+    height: 900 -->
 
 ### Still unsure what the heck we are talking about?
 
 ::::{.columns}
-::: {.column} 
+::: {.column}
 We are a DAO digital collective of 10+ people. Our team consists of engineers, researchers, and designers. 
 
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
@@ -319,6 +321,7 @@ We may not be as badass as him, but we love to collaborate with badass people, s
 ## Projects {.slide-projects .scrollable}
 
 :::: {.items }
+
 Substrate Blockchain Starter Kit
 
 Scriptarnica Light
@@ -391,6 +394,43 @@ MACI pallet
 <!-- 18 - Slide for partner logos -->
 ## {.slide-partners}
 
+:::: {.partners }
+
+::: {.partner}
+![](/assets/custom-images/metamask.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/polygon.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/yearn.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/metamask.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/polygon.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/yearn.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/metamask.png)
+:::
+
+::: {.partner}
+![](/assets/custom-images/polygon.png)
+:::
+
+::::
+
+
 <!-- 19 - Slide with full height left image (variety of options) + right text column  -->
 <!-- v7, v8 -->
 ## {.slide-full-img-l-txt-r-v6-out-transp}
@@ -415,7 +455,7 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 
 ::::{.columns}
 
-::: {.column }
+::: {.column}
 :::
 
 ::: {.column}
@@ -454,6 +494,6 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 ::::
 
 <!-- 20 - Slide final - title w/ black bg-->
-## {.slide-outro}
+## That's all folks {.slide-outro}
 
 

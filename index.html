@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
   <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.163">
+  <meta name="generator" content="quarto-0.9.183">
   <meta name="author" content="Nikola Tesla">
   <title>3327 Presentation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -335,10 +335,12 @@ Reveal.initialize({
   center: false,
   });
   </script> -->
-<!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
 </section>
 <section id="recap-for-humans-of-planet-earth" class="slide level2 slide-classic-w-v1">
 <h2>RECAP FOR HUMANS OF PLANET EARTH</h2>
+<!-- 1-w - Slide white 3 optional columns w/ optioal subtitle-->
+<p><!-- scrollable: true --> <!-- link-external-newwindow: true --> <!-- width: 1440
+    height: 900 --></p>
 <h3 id="still-unsure-what-the-heck-we-are-talking-about">Still unsure what the heck we are talking about?</h3>
 <div class="columns">
 <div class="column">
@@ -702,6 +704,32 @@ Reveal.initialize({
 </section>
 <section id="section-11" class="slide level2 slide-partners">
 <h2></h2>
+<div class="partners">
+<div class="partner">
+<p><img data-src="/assets/custom-images/metamask.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/polygon.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/yearn.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/metamask.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/polygon.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/yearn.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/metamask.png"></p>
+</div>
+<div class="partner">
+<p><img data-src="/assets/custom-images/polygon.png"></p>
+</div>
+</div>
 <!-- 19 - Slide with full height left image (variety of options) + right text column  -->
 <!-- v7, v8 -->
 </section>
@@ -751,8 +779,8 @@ Reveal.initialize({
 </div>
 <!-- 20 - Slide final - title w/ black bg-->
 </section>
-<section id="section-15" class="slide level2 slide-outro">
-<h2></h2>
+<section id="thats-all-folks" class="slide level2 slide-outro">
+<h2>That’s all folks</h2>
 <div class="footer footer-default">
 
 </div>
@@ -935,9 +963,9 @@ Reveal.initialize({
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1440,
+        width: 1920,
 
-        height: 900,
+        height: 1080,
 
         // Factor of the display size that should remain empty around the content
         margin: 0,
@@ -1047,20 +1075,6 @@ Reveal.initialize({
           return popup.innerHTML;
         });
       }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-        var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-          }
-        }
     });
     </script>
     
