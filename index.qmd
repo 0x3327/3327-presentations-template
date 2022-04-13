@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-title: "3327 test" 
-=======
 
 <!-- <script>
 Reveal.initialize({
@@ -10,11 +7,10 @@ Reveal.initialize({
   });
   </script> -->
 ---
-title: "3327 Presentation" 
+title: "3327 Presentation"
 subtitle: "Available slides"
 author: Nikola Tesla
 <!-- scrollable: true -->
->>>>>>> 99f624222b10f67cb0f3d712b201803c7e7760ba
 format: 
   revealjs: 
     theme: 3327.scss
