@@ -435,7 +435,7 @@ MACI pallet
 <!-- v7, v8 -->
 ## {.slide-full-img-l-txt-r-v6-out-transp}
 
-::::{.right}
+::::{.right-column}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
@@ -449,7 +449,7 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 
 ## {.slide-full-img-l-txt-r-v5-in}
 
-:::: {.right}
+::::{.right-column}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
@@ -463,7 +463,7 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 
 ## {.slide-full-img-l-txt-r-v9}
 
-::::{.right}
+::::{.right-column}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
