@@ -733,13 +733,9 @@ div.slide-background.slide.level2 {
 .slide.level2.slide-partners {
   padding: 53px 62px;
     h2 {  
-      color: $light;
-      padding-top: 220px;
       display: inline-block;
-
       width: 95%;
-      text-align: center;
-
+      margin-bottom: 130px;
     }
 
     .partners {
@@ -804,10 +800,6 @@ div.slide-background.slide.level2 {
             }
           }
         } 
-  
-        // .member:nth-child(3n-2) {
-        //   border-left: 2px solid $dark;
-        // }
     }
 }
 
@@ -827,31 +819,6 @@ div.slide-background.slide.level2 {
 .slide.level2.slide-full-img-l-txt-r-v9,
 .slide.level2.slide-full-img-l-txt-r-v10-in,
 .slide.level2.slide-full-img-l-txt-r-v10-out {
-  .columns {
-    height: 100%;
-    display: flex;
-  .column {
-    padding: 0 2%;
-    width: 50%;
-    height: 100%;
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    h3 {
-      @extend %plaid-xl-extrabold;
-    }
-
-
-    li, li p {
-      @extend %space-mono-m;
-      margin-bottom: 15px;
-    }
-
-  }
-}
 height: 100%;
 width: 100%;
 .right {
@@ -980,10 +947,10 @@ div.backgrounds {
   
   // - 18 - Slide for partner logos
   div.slide-background.slide.level2.slide-partners {
-    background-image: url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+    background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
     background-repeat: no-repeat;
-    background-size: auto, 110px 110px, 123px 123px, auto, auto;
-    background-position: left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
+    background-size: 110px 110px, 123px 123px, auto, auto;
+    background-position: right 40px top 40px, right 46px bottom 33px, right 223px bottom 95px, left 45px bottom 84px;
   }
   
 
@@ -1164,10 +1131,10 @@ div.slide-background.slide.level2.slide-b-l-w-r {
 
 // - 18 - Slide for partner logos
 div.slide-background.slide.level2.slide-partners {
-  background-image: url("/assets/template-elements/partners-text-white.svg"), url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
+  background-image: url("/assets/template-elements/3327-logo-tr-black.svg"), url("/assets/template-elements/star-black.svg"), url("/assets/template-elements/horizontal-line-black.svg"), url("/assets/template-elements/footer-text-black.svg");
   background-repeat: no-repeat;
-  background-size: auto, 70px 70px, 75px 75px, 250px auto, auto 10px;
-  background-position: left 45px top 46px, right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
+  background-size: 8vw 8vw, 75px 75px, 30vw auto, auto 10px;
+  background-position: right 40px top 40px, right 46px bottom 33px, right 173px bottom 71px, left 45px bottom 64px;
 }
 
 // full height image left - templates START

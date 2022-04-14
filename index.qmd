@@ -392,7 +392,7 @@ MACI pallet
 ::::
 
 <!-- 18 - Slide for partner logos -->
-## {.slide-partners}
+## Partners {.slide-partners}
 
 :::: {.partners }
 
