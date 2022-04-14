@@ -435,10 +435,7 @@ MACI pallet
 <!-- v7, v8 -->
 ## {.slide-full-img-l-txt-r-v6-out-transp}
 
-::::{.columns}
-::: {.column }
-:::
-::: {.column}
+::::{.right}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
@@ -448,17 +445,11 @@ Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room 
 
 - We are a DAO digital collective of 10+ people.
 
-:::
 ::::
 
 ## {.slide-full-img-l-txt-r-v5-in}
 
-::::{.columns}
-
-::: {.column}
-:::
-
-::: {.column}
+:::: {.right}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
@@ -467,19 +458,12 @@ We are a DAO digital collective of 10+ people. Our team consists of engineers, r
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
 
 - We are a DAO digital collective of 10+ people.
-
-:::
 
 ::::
 
 ## {.slide-full-img-l-txt-r-v9}
 
-::::{.columns}
-
-::: {.column }
-:::
-
-::: {.column}
+::::{.right}
 
 ### RECAP FOR HUMANS OF PLANET EARTH
 
@@ -488,8 +472,6 @@ We are a DAO digital collective of 10+ people. Our team consists of engineers, r
 Our name, 3327, is inspired by the most badass geek, Nikola Tesla, and the room he used to live in. We may not be as badass as him, but we love to collaborate with badass people, so drop us a message. 
 
 - We are a DAO digital collective of 10+ people.
-
-:::
 
 ::::
 

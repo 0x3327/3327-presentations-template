@@ -852,6 +852,28 @@ div.slide-background.slide.level2 {
 
   }
 }
+height: 100%;
+width: 100%;
+.right {
+  margin: 0 4% 0 50%;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+
+  display: inline-flex!important;
+  flex-direction: column;
+  justify-content: center;
+  
+  h3 {
+    @extend %plaid-xl-extrabold;
+  }
+
+
+  li, li p {
+    @extend %space-mono-m;
+    margin-bottom: 15px;
+  }
+}
 }
 
 // 20 Slide final - title w/ black bg
